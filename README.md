@@ -62,7 +62,7 @@ cd dengue-light-crf
 
 ## Contributing / updating
 
-Work on a branch and open a Pull Request; do not commit directly to `main`. The full workflow, with macOS terminal commands, is in [`SOP_repository_setup_and_maintenance.md`](./SOP_repository_setup_and_maintenance.md). Never commit patient data, credentials, API tokens or record exports.
+Work on a branch and open a Pull Request; do not commit directly to `main`. Never commit patient data, credentials, API tokens or record exports.
 
 ## Data governance
 
