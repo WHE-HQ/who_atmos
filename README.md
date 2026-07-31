@@ -18,8 +18,8 @@ This repository distributes the **instruments** for a harmonised, lightweight de
 
 ### Files
 
-- `CRF/DENGUE_ODK_updated.v7.8.4 1.xlsx` — XLSForm dictionary for ODK/Kobo.
-- `REDCap/DengueLightCRF_2026-07-30_1357.REDCap.xml` — importable REDCap project (CDISC ODM).
+- `CRF/DENGUE_ODK_updated.v1.0.0.xlsx` — XLSForm dictionary for ODK/Kobo.
+- `REDCap/DengueLightCRF_1.0.0.REDCap.xml` — importable REDCap project (CDISC ODM).
 - `REDCap/Dengue - LightCRF _ REDCap.pdf` — REDCap codebook (field-by-field reference).
 
 ## Two ways to collect data
@@ -33,7 +33,7 @@ The same CRF is provided for two widely used platforms so facilities can use whi
 To deploy your own copy from the dictionary:
 
 1. Sign in to KoboToolbox (or your ODK Central server).
-2. **New → Upload an XLSForm** and select `CRF/DENGUE_ODK_updated.v7.8.4 1.xlsx`.
+2. **New → Upload an XLSForm** and select `CRF/DENGUE_ODK_updated.v1.0.0.xlsx`.
 3. **Deploy** — Kobo generates the web (Enketo) and mobile (ODK Collect) versions.
 4. Validate against the live reference form linked above.
 
@@ -41,13 +41,13 @@ Optional local check before upload:
 
 ```bash
 pip install pyxform
-xls2xform "CRF/DENGUE_ODK_updated.v7.8.4 1.xlsx" /tmp/dengue_form.xml
+xls2xform "CRF/DENGUE_ODK_updated.v1.0.0.xlsx" /tmp/dengue_form.xml
 ```
 
 ### 2. REDCap
 
 1. In REDCap: **New Project → Upload a REDCap project XML file (CDISC ODM)**.
-2. Select `REDCap/DengueLightCRF_2026-07-30_1357.REDCap.xml`; REDCap builds the instruments and data dictionary.
+2. Select `REDCap/DengueLightCRF_1.0.0.REDCap.xml`; REDCap builds the instruments and data dictionary.
 3. Use `REDCap/Dengue - LightCRF _ REDCap.pdf` as the reference codebook.
 4. Test with dummy data before moving the project to production.
 
