@@ -1,8 +1,9 @@
-# Dengue Light CRF — clinical data-capture instruments
+# ATMOS — Access to medical oxygen scorecard
 
-Companion repository to the WHO report *Streamlined dengue clinical data capture in the hospital setting – case report form*.
+These tools are implementable versions of the **ATMOS scorecard** as described in the WHO publication [WHO publication URL].
 
-This repository distributes the **instruments** for a harmonised, lightweight dengue clinical case report form (CRF): a minimal-burden data-collection tool for **routine** hospital care (not research-grade complexity), designed to generate near real-time insight into dengue severity, care processes, outcomes and service pressures. Data elements are mapped to existing standards (ICD-11, OMOP) so collected data can feed secure, interoperable infrastructure aligned with existing research tools.
+Users may wish to use the implementation on **WHO REDCap** for direct data entry. Please use:
+https://extranet.who.int/edcrc/surveys/?s=TML97PKNNTNN8A9Y
 
 > ⚠️ **This repository contains instrument definitions only** — form dictionaries, a REDCap project template and a codebook. It contains **no patient data**, no credentials and no server secrets. Do not commit any of those.
 
@@ -10,55 +11,52 @@ This repository distributes the **instruments** for a harmonised, lightweight de
 
 | Path | Contents |
 |---|---|
-| `CRF/` | The **ODK / KoboToolbox** form dictionary (XLSForm) for the Light Dengue CRF. |
-| `REDCap/` | The **REDCap** project (XML) and its **codebook** (PDF) for data collection. |
-| `docs/` | Supporting notes and figures (optional). |
-| `SOP_repository_setup_and_maintenance.md` | How this repository is created, maintained and updated. |
+| `CRF/` | The **ODK / KoboToolbox** form dictionary (XLSForm) for the ATMOS scorecard. |
+| `REDCap/` | The **REDCap** project (XML) and its **codebook** (PDF) for the ATMOS scorecard. |
 | `CHANGELOG.md` | Record of changes to the instruments. |
 
 ### Files
 
-- `CRF/DENGUE_ODK_updated.v1.0.0.xlsx` — XLSForm dictionary for ODK/Kobo.
-- `REDCap/DengueLightCRF_1.0.0.REDCap.xml` — importable REDCap project (CDISC ODM).
-- `REDCap/Dengue - LightCRF _ REDCap.pdf` — REDCap codebook (field-by-field reference).
+- `***` — XLSForm dictionary for ODK/Kobo.
+- `***` — importable REDCap project (CDISC ODM).
+- `***` — REDCap codebook (field-by-field reference).
 
-## Two ways to collect data
+## Three ways to collect data
 
-The same CRF is provided for two widely used platforms so facilities can use whichever they already run.
+The ATMOS scorecard can be implemented through the following options.
 
-### 1. ODK / KoboToolbox
+### 1. Direct use of the WHO REDCap implementation
 
-**Live reference form:** https://ee.kobotoolbox.org/x/3WN8CVM5
+For direct data entry, users may use the WHO REDCap implementation of the scorecard:
+
+https://extranet.who.int/edcrc/surveys/?s=TML97PKNNTNN8A9Y
+
+### 2. ODK / KoboToolbox
+
+**Live reference form:** *** [LINK] ***
 
 To deploy your own copy from the dictionary:
 
 1. Sign in to KoboToolbox (or your ODK Central server).
-2. **New → Upload an XLSForm** and select `CRF/DENGUE_ODK_updated.v1.0.0.xlsx`.
+2. **New → Upload an XLSForm** and select `[FILENAME]`.
 3. **Deploy** — Kobo generates the web (Enketo) and mobile (ODK Collect) versions.
 4. Validate against the live reference form linked above.
 
-Optional local check before upload:
-
-```bash
-pip install pyxform
-xls2xform "CRF/DENGUE_ODK_updated.v1.0.0.xlsx" /tmp/dengue_form.xml
-```
-
-### 2. REDCap
+### 3. REDCap
 
 1. In REDCap: **New Project → Upload a REDCap project XML file (CDISC ODM)**.
-2. Select `REDCap/DengueLightCRF_1.0.0.REDCap.xml`; REDCap builds the instruments and data dictionary.
-3. Use `REDCap/Dengue - LightCRF _ REDCap.pdf` as the reference codebook.
+2. Select `[FILENAME FOR DICTIONARY]`; REDCap builds the instruments and data dictionary.
+3. Use `[FILENAME FOR CODEBOOK]` as the reference codebook.
 4. Test with dummy data before moving the project to production.
 
 ## Get the repository
 
 ```bash
-git clone https://github.com/WHO-org/dengue-light-crf.git
-cd dengue-light-crf
+git clone https://github.com/WHO-org/who_atmos.git
+cd who_atmos
 ```
 
-*(Replace the organisation/name with the actual repository URL. Access is restricted; you must be added to the WHO team.)*
+*(Replace the organisation/name with the actual repository URL.)*
 
 ## Contributing / updating
 
@@ -66,15 +64,13 @@ Work on a branch and open a Pull Request; do not commit directly to `main`. Neve
 
 ## Data governance
 
-These instruments are shared to support routine dengue clinical data capture and quality improvement. Any data collected with them remains the property of the collecting institution / national programme and is subject to local confidentiality and data-protection rules. Deployment, access control and analysis of collected data are the responsibility of the deploying facility and national programme.
-
-## Standards & interoperability
-
-CRF data elements are mapped to **ICD-11** and **OMOP**, supporting interoperability with existing surveillance and research infrastructure and enabling comparable, harmonised reporting across facilities and countries.
+These instruments are shared to support **medical oxygen ecosystem self-assessment at a national level** and to keep track of progress in the implementation of **WHA resolution 76.3: Increasing access to medical oxygen**. Any data collected with them remains the property of the collecting institution / national programme and is subject to local confidentiality and data-protection rules. Deployment, access control and analysis of collected data are the responsibility of the deploying facility and national programme.
 
 ## References
 
-WHO dengue dashboard; WHO dengue clinical management guidelines; ISARIC clinical characterisation tools and core outcome sets. See the main report for the full reference list.
+[LINK TO WHO PUBLICATION (DOI)]
+
+https://apps.who.int/gb/ebwha/pdf_files/WHA76/A76_R3-en.pdf
 
 ## Maintainer
 
