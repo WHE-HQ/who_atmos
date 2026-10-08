@@ -57,7 +57,7 @@ git clone https://github.com/WHO-org/who_atmos.git
 cd who_atmos
 ```
 
-*(Replace the organisation/name with the actual repository URL.)*
+
 
 ## Contributing / updating
 
