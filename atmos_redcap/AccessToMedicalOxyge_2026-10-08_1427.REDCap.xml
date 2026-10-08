@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="https://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="Access to medical oxygen scorecard (ATMOS)" AsOfDateTime="2026-10-08T14:27:30" CreationDateTime="2026-10-08T14:27:30" SourceSystem="REDCap" SourceSystemVersion="17.4.6">
+<Study OID="Project.AccessToMedicalOxygenScorecard">
+<GlobalVariables>
+	<StudyName>Access to medical oxygen scorecard (ATMOS)</StudyName>
+	<StudyDescription>This file contains the metadata, events, and data for REDCap project "Access to medical oxygen scorecard (ATMOS)".</StudyDescription>
+	<ProtocolName>Access to medical oxygen scorecard (ATMOS)</ProtocolName>
+	<redcap:RecordAutonumberingEnabled>1</redcap:RecordAutonumberingEnabled>
+	<redcap:CustomRecordLabel></redcap:CustomRecordLabel>
+	<redcap:SecondaryUniqueField></redcap:SecondaryUniqueField>
+	<redcap:SecondaryUniqueFieldDisplayValue>1</redcap:SecondaryUniqueFieldDisplayValue>
+	<redcap:SecondaryUniqueFieldDisplayLabel>1</redcap:SecondaryUniqueFieldDisplayLabel>
+	<redcap:SchedulingEnabled>0</redcap:SchedulingEnabled>
+	<redcap:SurveysEnabled>1</redcap:SurveysEnabled>
+	<redcap:SurveyInvitationEmailField></redcap:SurveyInvitationEmailField>
+	<redcap:SurveyParticipantIdentifiers>0</redcap:SurveyParticipantIdentifiers>
+	<redcap:RandomizationEnabled>0</redcap:RandomizationEnabled>
+	<redcap:DisplayTodayNowButton>1</redcap:DisplayTodayNowButton>
+	<redcap:PreventBranchingEraseValues>0</redcap:PreventBranchingEraseValues>
+	<redcap:RequireChangeReason>0</redcap:RequireChangeReason>
+	<redcap:DataHistoryPopup>1</redcap:DataHistoryPopup>
+	<redcap:OrderRecordsByField></redcap:OrderRecordsByField>
+	<redcap:taskCompleteStatus>2</redcap:taskCompleteStatus>
+	<redcap:DataResolutionWorkflowEnabled>1</redcap:DataResolutionWorkflowEnabled>
+	<redcap:FieldCommentLogOptionEditDelete>1</redcap:FieldCommentLogOptionEditDelete>
+	<redcap:DataResolutionWorkflowHideClosedQueries>1</redcap:DataResolutionWorkflowHideClosedQueries>
+	<redcap:MyCapEnabled>0</redcap:MyCapEnabled>
+	<redcap:Purpose>0</redcap:Purpose>
+	<redcap:PurposeOther></redcap:PurposeOther>
+	<redcap:ProjectNotes></redcap:ProjectNotes>
+	<redcap:SurveyAuthEnabled>0</redcap:SurveyAuthEnabled>
+	<redcap:SurveyAuthField1></redcap:SurveyAuthField1>
+	<redcap:SurveyAuthEvent1></redcap:SurveyAuthEvent1>
+	<redcap:SurveyAuthField2></redcap:SurveyAuthField2>
+	<redcap:SurveyAuthEvent2></redcap:SurveyAuthEvent2>
+	<redcap:SurveyAuthField3></redcap:SurveyAuthField3>
+	<redcap:SurveyAuthEvent3></redcap:SurveyAuthEvent3>
+	<redcap:SurveyAuthMinFields></redcap:SurveyAuthMinFields>
+	<redcap:SurveyAuthApplyAllSurveys>1</redcap:SurveyAuthApplyAllSurveys>
+	<redcap:SurveyAuthCustomMessage></redcap:SurveyAuthCustomMessage>
+	<redcap:SurveyAuthFailLimit></redcap:SurveyAuthFailLimit>
+	<redcap:SurveyAuthFailWindow></redcap:SurveyAuthFailWindow>
+	<redcap:MissingDataCodes></redcap:MissingDataCodes>
+	<redcap:ProtectedEmailMode>0</redcap:ProtectedEmailMode>
+	<redcap:ProtectedEmailModeCustomText></redcap:ProtectedEmailModeCustomText>
+	<redcap:ProtectedEmailModeTrigger>ALL</redcap:ProtectedEmailModeTrigger>
+	<redcap:ProtectedEmailModeLogo></redcap:ProtectedEmailModeLogo>
+	<redcap:SurveysGroup>
+		<redcap:Surveys form_name="form_1" title="Access to medical oxygen scorecard (ATMOS)" instructions="&lt;p&gt;This scorecard supports governments in monitoring and reporting progress on the World Health Organization resolution 76.3, &lt;i&gt;Increasing access to medical oxygen&lt;/i&gt;. It has been developed and adapted from a tool created by the Lancet Global Health Commission on medical oxygen security.&lt;/p&gt;
+&lt;p&gt;The revised ATMO₂S scorecard includes performance indicators aligned with all components of the WHO oxygen resolution.&lt;/p&gt;
+&lt;p&gt;For additional technical guidance on oxygen systems, please refer to the WHO Access to Oxygen Initiative webpage: &lt;a id=&quot;menuroee&quot; class=&quot;fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn&quot; title=&quot;https://www.who.int/initiatives/oxygen-access-scale-up&quot; href=&quot;https://www.who.int/initiatives/oxygen-access-scale-up&quot; target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot; aria-label=&quot;Link https://www.who.int/initiatives/oxygen-access-scale-up&quot;&gt;https://www.who.int/initiatives/oxygen-access-scale-up&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;margin-left: 0cm; mso-list: l0 level1 lfo1;&quot;&gt;The survey is divided into four sections:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li style=&quot;list-style-type: none;&quot;&gt;
+&lt;ol style=&quot;margin-top: 0cm;&quot; type=&quot;1&quot;&gt;
+&lt;li style=&quot;margin-left: 0cm; mso-list: l0 level2 lfo1;&quot;&gt;Oxygen architecture&lt;/li&gt;
+&lt;li style=&quot;margin-left: 0cm; mso-list: l0 level2 lfo1;&quot;&gt;Oxygen availability&lt;/li&gt;
+&lt;li style=&quot;margin-left: 0cm; mso-list: l0 level2 lfo1;&quot;&gt;Oxygen affordability&lt;/li&gt;
+&lt;li style=&quot;margin-left: 0cm; mso-list: l0 level2 lfo1;&quot;&gt;Oxygen adoption&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;At the end of the survey, you will receive a score representing the sum of your responses to all self-assessment questions. You will also have the option to save your responses for your records.&lt;/p&gt;" offline_instructions="" acknowledgement="&lt;p&gt;&lt;strong&gt;Thank you for taking the survey.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Have a nice day!&lt;/p&gt;" stop_action_acknowledgement="" stop_action_delete_response="0" question_by_section="1" display_page_number="1" question_auto_numbering="0" survey_enabled="1" save_and_return="0" save_and_return_code_bypass="0" logo="" hide_title="0" view_results="0" min_responses_view_results="10" check_diversity_view_results="0" end_survey_redirect_url="" survey_expiration="" promis_skip_question="0" survey_auth_enabled_single="0" edit_completed_response="0" hide_back_button="0" show_required_field_text="1" confirmation_email_subject="" confirmation_email_content="" confirmation_email_from="" confirmation_email_from_display="" confirmation_email_attach_pdf="0" confirmation_email_attachment="" text_to_speech="0" text_to_speech_language="en" end_survey_redirect_next_survey="0" end_survey_redirect_redcap_share_before_next_survey="0" end_survey_redirect_next_survey_logic="" theme="" text_size="1" font_family="16" custom_css="" theme_text_buttons="" theme_bg_page="" theme_text_title="" theme_bg_title="" theme_text_sectionheader="" theme_bg_sectionheader="" theme_text_question="" theme_bg_question="" enhanced_choices="0" repeat_survey_enabled="0" repeat_survey_btn_text="" repeat_survey_btn_location="BEFORE_SUBMIT" response_limit="" response_limit_include_partials="1" response_limit_custom_text="&lt;p&gt;Thank you for your interest; however, the survey is closed because the maximum number of responses has been reached.&lt;/p&gt;" survey_time_limit_days="" survey_time_limit_hours="" survey_time_limit_minutes="" email_participant_field="" end_of_survey_pdf_download="1" pdf_save_to_field="" pdf_save_to_event_id="" pdf_save_translated="0" pdf_auto_archive="0" pdf_econsent_version="" pdf_econsent_type="" pdf_econsent_firstname_field="" pdf_econsent_firstname_event_id="" pdf_econsent_lastname_field="" pdf_econsent_lastname_event_id="" pdf_econsent_dob_field="" pdf_econsent_dob_event_id="" pdf_econsent_allow_edit="0" pdf_econsent_signature_field1="" pdf_econsent_signature_field2="" pdf_econsent_signature_field3="" pdf_econsent_signature_field4="" pdf_econsent_signature_field5="" survey_width_percent="" survey_show_font_resize="1" survey_btn_text_prev_page="" survey_btn_text_next_page="" survey_btn_text_submit="" survey_btn_hide_submit="0" survey_btn_hide_submit_logic=""/>
+	</redcap:SurveysGroup>
+</GlobalVariables>
+<MetaDataVersion OID="Metadata.AccessToMedicalOxygenScorecard_2026-10-08_1427" Name="Access to medical oxygen scorecard (ATMOS)" redcap:RecordIdField="record_id">
+	<FormDef OID="Form.form_1" Name="Form 1" Repeating="No" redcap:FormName="form_1">
+		<ItemGroupRef ItemGroupOID="form_1.record_id" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.resp_countries" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.email" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.note_1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.atmos11_score" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.note_2" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.atmos12_score" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.note_3" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.atmos13_score" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.note_4" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.atmos14_score" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.note_5" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.atmos15_score" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.note_6" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.atmos21_score" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.note_7" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.atmos22_score" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.note_8" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.atmos23_score" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.note_9" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.atmos24_score" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.note_10" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.atmos25_score" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.note_11" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.atmos26_score" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.note_12" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.atmos31_score" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.note_13" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.atmos32_score" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.note_14" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.atmos33_score" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.note_15" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.atmos34_score" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.note_16" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.atmos41_score" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.note_17" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.atmos42_score" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.note_18" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.atmos43_score" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.note_19" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.atmos44_score" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.note_20" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.atmos45_score" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.note_21" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.atmos46_score" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.atmos_score" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="form_1.form_1_complete" Mandatory="No"/>
+	</FormDef>
+	<ItemGroupDef OID="form_1.record_id" Name="Form 1" Repeating="No">
+		<ItemRef ItemOID="record_id" Mandatory="No" redcap:Variable="record_id"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.resp_countries" Name="RESPONDANT DETAILS" Repeating="No">
+		<ItemRef ItemOID="resp_countries" Mandatory="Yes" redcap:Variable="resp_countries"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.email" Name="Form 1" Repeating="No">
+		<ItemRef ItemOID="email" Mandatory="No" redcap:Variable="email"/>
+		<ItemRef ItemOID="last_name" Mandatory="No" redcap:Variable="last_name"/>
+		<ItemRef ItemOID="first_name" Mandatory="No" redcap:Variable="first_name"/>
+		<ItemRef ItemOID="resp_public" Mandatory="Yes" redcap:Variable="resp_public"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.note_1" Name="1.1 National essential medicine lists" Repeating="No">
+		<ItemRef ItemOID="note_1" Mandatory="No" redcap:Variable="note_1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.atmos11_score" Name="Form 1" Repeating="No">
+		<ItemRef ItemOID="atmos11_score" Mandatory="Yes" redcap:Variable="atmos11_score"/>
+		<ItemRef ItemOID="atmos11_docu" Mandatory="Yes" redcap:Variable="atmos11_docu"/>
+		<ItemRef ItemOID="atmos11_str" Mandatory="No" redcap:Variable="atmos11_str"/>
+		<ItemRef ItemOID="atmos11_plan" Mandatory="No" redcap:Variable="atmos11_plan"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.note_2" Name="1.2 National strategic and operational health plans " Repeating="No">
+		<ItemRef ItemOID="note_2" Mandatory="No" redcap:Variable="note_2"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.atmos12_score" Name="Form 1" Repeating="No">
+		<ItemRef ItemOID="atmos12_score" Mandatory="Yes" redcap:Variable="atmos12_score"/>
+		<ItemRef ItemOID="atmos12_docu" Mandatory="Yes" redcap:Variable="atmos12_docu"/>
+		<ItemRef ItemOID="atmos12_str" Mandatory="No" redcap:Variable="atmos12_str"/>
+		<ItemRef ItemOID="atmos12_plan" Mandatory="No" redcap:Variable="atmos12_plan"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.note_3" Name="1.3 Emergency and disaster preparedness and response plans" Repeating="No">
+		<ItemRef ItemOID="note_3" Mandatory="No" redcap:Variable="note_3"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.atmos13_score" Name="Form 1" Repeating="No">
+		<ItemRef ItemOID="atmos13_score" Mandatory="Yes" redcap:Variable="atmos13_score"/>
+		<ItemRef ItemOID="atmos13_docu" Mandatory="Yes" redcap:Variable="atmos13_docu"/>
+		<ItemRef ItemOID="atmos13_str" Mandatory="No" redcap:Variable="atmos13_str"/>
+		<ItemRef ItemOID="atmos13_plan" Mandatory="No" redcap:Variable="atmos13_plan"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.note_4" Name="1.4 Coordination mechanisms" Repeating="No">
+		<ItemRef ItemOID="note_4" Mandatory="No" redcap:Variable="note_4"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.atmos14_score" Name="Form 1" Repeating="No">
+		<ItemRef ItemOID="atmos14_score" Mandatory="Yes" redcap:Variable="atmos14_score"/>
+		<ItemRef ItemOID="atmos14_docu" Mandatory="Yes" redcap:Variable="atmos14_docu"/>
+		<ItemRef ItemOID="atmos14_str" Mandatory="No" redcap:Variable="atmos14_str"/>
+		<ItemRef ItemOID="atmos14_plan" Mandatory="No" redcap:Variable="atmos14_plan"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.note_5" Name="1.5 National health care infrastructure policy and oxygen integration " Repeating="No">
+		<ItemRef ItemOID="note_5" Mandatory="No" redcap:Variable="note_5"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.atmos15_score" Name="Form 1" Repeating="No">
+		<ItemRef ItemOID="atmos15_score" Mandatory="Yes" redcap:Variable="atmos15_score"/>
+		<ItemRef ItemOID="atmos15_docu" Mandatory="Yes" redcap:Variable="atmos15_docu"/>
+		<ItemRef ItemOID="atmos15_str" Mandatory="No" redcap:Variable="atmos15_str"/>
+		<ItemRef ItemOID="atmos15_plan" Mandatory="No" redcap:Variable="atmos15_plan"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.note_6" Name="2.1 Sufficient capacity in routine conditions" Repeating="No">
+		<ItemRef ItemOID="note_6" Mandatory="No" redcap:Variable="note_6"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.atmos21_score" Name="Form 1" Repeating="No">
+		<ItemRef ItemOID="atmos21_score" Mandatory="Yes" redcap:Variable="atmos21_score"/>
+		<ItemRef ItemOID="atmos21_docu" Mandatory="Yes" redcap:Variable="atmos21_docu"/>
+		<ItemRef ItemOID="atmos21_str" Mandatory="No" redcap:Variable="atmos21_str"/>
+		<ItemRef ItemOID="atmos21_plan" Mandatory="No" redcap:Variable="atmos21_plan"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.note_7" Name="2.2 Capacity for surge demand" Repeating="No">
+		<ItemRef ItemOID="note_7" Mandatory="No" redcap:Variable="note_7"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.atmos22_score" Name="Form 1" Repeating="No">
+		<ItemRef ItemOID="atmos22_score" Mandatory="Yes" redcap:Variable="atmos22_score"/>
+		<ItemRef ItemOID="atmos22_docu" Mandatory="Yes" redcap:Variable="atmos22_docu"/>
+		<ItemRef ItemOID="atmos22_str" Mandatory="No" redcap:Variable="atmos22_str"/>
+		<ItemRef ItemOID="atmos22_plan" Mandatory="No" redcap:Variable="atmos22_plan"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.note_8" Name="2.3 Quantification of need" Repeating="No">
+		<ItemRef ItemOID="note_8" Mandatory="No" redcap:Variable="note_8"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.atmos23_score" Name="Form 1" Repeating="No">
+		<ItemRef ItemOID="atmos23_score" Mandatory="Yes" redcap:Variable="atmos23_score"/>
+		<ItemRef ItemOID="atmos23_docu" Mandatory="Yes" redcap:Variable="atmos23_docu"/>
+		<ItemRef ItemOID="atmos23_str" Mandatory="No" redcap:Variable="atmos23_str"/>
+		<ItemRef ItemOID="atmos23_plan" Mandatory="No" redcap:Variable="atmos23_plan"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.note_9" Name="2.4 Guidance and contracts" Repeating="No">
+		<ItemRef ItemOID="note_9" Mandatory="No" redcap:Variable="note_9"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.atmos24_score" Name="Form 1" Repeating="No">
+		<ItemRef ItemOID="atmos24_score" Mandatory="Yes" redcap:Variable="atmos24_score"/>
+		<ItemRef ItemOID="atmos24_docu" Mandatory="Yes" redcap:Variable="atmos24_docu"/>
+		<ItemRef ItemOID="atmos24_str" Mandatory="No" redcap:Variable="atmos24_str"/>
+		<ItemRef ItemOID="atmos24_plan" Mandatory="No" redcap:Variable="atmos24_plan"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.note_10" Name="2.5 Regulatory processes" Repeating="No">
+		<ItemRef ItemOID="note_10" Mandatory="No" redcap:Variable="note_10"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.atmos25_score" Name="Form 1" Repeating="No">
+		<ItemRef ItemOID="atmos25_score" Mandatory="Yes" redcap:Variable="atmos25_score"/>
+		<ItemRef ItemOID="atmos25_docu" Mandatory="Yes" redcap:Variable="atmos25_docu"/>
+		<ItemRef ItemOID="atmos25_str" Mandatory="No" redcap:Variable="atmos25_str"/>
+		<ItemRef ItemOID="atmos25_plan" Mandatory="No" redcap:Variable="atmos25_plan"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.note_11" Name="2.6 Safe distribution" Repeating="No">
+		<ItemRef ItemOID="note_11" Mandatory="No" redcap:Variable="note_11"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.atmos26_score" Name="Form 1" Repeating="No">
+		<ItemRef ItemOID="atmos26_score" Mandatory="Yes" redcap:Variable="atmos26_score"/>
+		<ItemRef ItemOID="atmos26_docu" Mandatory="Yes" redcap:Variable="atmos26_docu"/>
+		<ItemRef ItemOID="atmos26_str" Mandatory="No" redcap:Variable="atmos26_str"/>
+		<ItemRef ItemOID="atmos26_plan" Mandatory="No" redcap:Variable="atmos26_plan"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.note_12" Name="3.1 Budget allocations" Repeating="No">
+		<ItemRef ItemOID="note_12" Mandatory="No" redcap:Variable="note_12"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.atmos31_score" Name="Form 1" Repeating="No">
+		<ItemRef ItemOID="atmos31_score" Mandatory="Yes" redcap:Variable="atmos31_score"/>
+		<ItemRef ItemOID="atmos31_docu" Mandatory="Yes" redcap:Variable="atmos31_docu"/>
+		<ItemRef ItemOID="atmos31_str" Mandatory="No" redcap:Variable="atmos31_str"/>
+		<ItemRef ItemOID="atmos31_plan" Mandatory="No" redcap:Variable="atmos31_plan"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.note_13" Name="3.2 Procurement and tendering processes" Repeating="No">
+		<ItemRef ItemOID="note_13" Mandatory="No" redcap:Variable="note_13"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.atmos32_score" Name="Form 1" Repeating="No">
+		<ItemRef ItemOID="atmos32_score" Mandatory="Yes" redcap:Variable="atmos32_score"/>
+		<ItemRef ItemOID="atmos32_docu" Mandatory="Yes" redcap:Variable="atmos32_docu"/>
+		<ItemRef ItemOID="atmos32_str" Mandatory="No" redcap:Variable="atmos32_str"/>
+		<ItemRef ItemOID="atmos32_plan" Mandatory="No" redcap:Variable="atmos32_plan"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.note_14" Name="3.3 Affordability to providers" Repeating="No">
+		<ItemRef ItemOID="note_14" Mandatory="No" redcap:Variable="note_14"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.atmos33_score" Name="Form 1" Repeating="No">
+		<ItemRef ItemOID="atmos33_score" Mandatory="Yes" redcap:Variable="atmos33_score"/>
+		<ItemRef ItemOID="atmos33_docu" Mandatory="Yes" redcap:Variable="atmos33_docu"/>
+		<ItemRef ItemOID="atmos33_str" Mandatory="No" redcap:Variable="atmos33_str"/>
+		<ItemRef ItemOID="atmos33_plan" Mandatory="No" redcap:Variable="atmos33_plan"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.note_15" Name="3.4 Mechanisms for affordability" Repeating="No">
+		<ItemRef ItemOID="note_15" Mandatory="No" redcap:Variable="note_15"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.atmos34_score" Name="Form 1" Repeating="No">
+		<ItemRef ItemOID="atmos34_score" Mandatory="Yes" redcap:Variable="atmos34_score"/>
+		<ItemRef ItemOID="atmos34_docu" Mandatory="Yes" redcap:Variable="atmos34_docu"/>
+		<ItemRef ItemOID="atmos34_str" Mandatory="No" redcap:Variable="atmos34_str"/>
+		<ItemRef ItemOID="atmos34_plan" Mandatory="No" redcap:Variable="atmos34_plan"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.note_16" Name="4.1 Trained healthcare workers" Repeating="No">
+		<ItemRef ItemOID="note_16" Mandatory="No" redcap:Variable="note_16"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.atmos41_score" Name="Form 1" Repeating="No">
+		<ItemRef ItemOID="atmos41_score" Mandatory="Yes" redcap:Variable="atmos41_score"/>
+		<ItemRef ItemOID="atmos41_docu" Mandatory="Yes" redcap:Variable="atmos41_docu"/>
+		<ItemRef ItemOID="atmos41_str" Mandatory="No" redcap:Variable="atmos41_str"/>
+		<ItemRef ItemOID="atmos41_plan" Mandatory="No" redcap:Variable="atmos41_plan"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.note_17" Name="4.2 Trained engineers and technicians" Repeating="No">
+		<ItemRef ItemOID="note_17" Mandatory="No" redcap:Variable="note_17"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.atmos42_score" Name="Form 1" Repeating="No">
+		<ItemRef ItemOID="atmos42_score" Mandatory="Yes" redcap:Variable="atmos42_score"/>
+		<ItemRef ItemOID="atmos42_docu" Mandatory="Yes" redcap:Variable="atmos42_docu"/>
+		<ItemRef ItemOID="atmos42_str" Mandatory="No" redcap:Variable="atmos42_str"/>
+		<ItemRef ItemOID="atmos42_plan" Mandatory="No" redcap:Variable="atmos42_plan"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.note_18" Name="4.3 Monitoring and evaluation" Repeating="No">
+		<ItemRef ItemOID="note_18" Mandatory="No" redcap:Variable="note_18"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.atmos43_score" Name="Form 1" Repeating="No">
+		<ItemRef ItemOID="atmos43_score" Mandatory="Yes" redcap:Variable="atmos43_score"/>
+		<ItemRef ItemOID="atmos43_docu" Mandatory="Yes" redcap:Variable="atmos43_docu"/>
+		<ItemRef ItemOID="atmos43_str" Mandatory="No" redcap:Variable="atmos43_str"/>
+		<ItemRef ItemOID="atmos43_plan" Mandatory="No" redcap:Variable="atmos43_plan"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.note_19" Name="4.4 Public health information" Repeating="No">
+		<ItemRef ItemOID="note_19" Mandatory="No" redcap:Variable="note_19"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.atmos44_score" Name="Form 1" Repeating="No">
+		<ItemRef ItemOID="atmos44_score" Mandatory="Yes" redcap:Variable="atmos44_score"/>
+		<ItemRef ItemOID="atmos44_docu" Mandatory="Yes" redcap:Variable="atmos44_docu"/>
+		<ItemRef ItemOID="atmos44_str" Mandatory="No" redcap:Variable="atmos44_str"/>
+		<ItemRef ItemOID="atmos44_plan" Mandatory="No" redcap:Variable="atmos44_plan"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.note_20" Name=" 4.5 Appropriate use" Repeating="No">
+		<ItemRef ItemOID="note_20" Mandatory="No" redcap:Variable="note_20"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.atmos45_score" Name="Form 1" Repeating="No">
+		<ItemRef ItemOID="atmos45_score" Mandatory="Yes" redcap:Variable="atmos45_score"/>
+		<ItemRef ItemOID="atmos45_docu" Mandatory="Yes" redcap:Variable="atmos45_docu"/>
+		<ItemRef ItemOID="atmos45_str" Mandatory="No" redcap:Variable="atmos45_str"/>
+		<ItemRef ItemOID="atmos45_plan" Mandatory="No" redcap:Variable="atmos45_plan"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.note_21" Name="4.6 Research and innovation" Repeating="No">
+		<ItemRef ItemOID="note_21" Mandatory="No" redcap:Variable="note_21"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.atmos46_score" Name="Form 1" Repeating="No">
+		<ItemRef ItemOID="atmos46_score" Mandatory="Yes" redcap:Variable="atmos46_score"/>
+		<ItemRef ItemOID="atmos46_docu" Mandatory="Yes" redcap:Variable="atmos46_docu"/>
+		<ItemRef ItemOID="atmos46_str" Mandatory="No" redcap:Variable="atmos46_str"/>
+		<ItemRef ItemOID="atmos46_plan" Mandatory="No" redcap:Variable="atmos46_plan"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.atmos_score" Name="OVERALL SCORE" Repeating="No">
+		<ItemRef ItemOID="atmos_score" Mandatory="No" redcap:Variable="atmos_score"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="form_1.form_1_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="form_1_complete" Mandatory="No" redcap:Variable="form_1_complete"/>
+	</ItemGroupDef>
+	<ItemDef OID="record_id" Name="record_id" DataType="text" Length="999" redcap:Variable="record_id" redcap:FieldType="text">
+		<Question><TranslatedText>Record ID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="resp_countries" Name="resp_countries" DataType="text" Length="3" redcap:Variable="resp_countries" redcap:FieldType="select" redcap:SectionHeader="RESPONDANT DETAILS" redcap:RequiredField="y">
+		<Question><TranslatedText>Which Member State or territory are you reporting for?</TranslatedText></Question>
+		<CodeListRef CodeListOID="resp_countries.choices"/>
+	</ItemDef>
+	<ItemDef OID="email" Name="email" DataType="text" Length="999" redcap:Variable="email" redcap:FieldType="text">
+		<Question><TranslatedText>Email address for respondent/contact</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="last_name" Name="last_name" DataType="text" Length="999" redcap:Variable="last_name" redcap:FieldType="text">
+		<Question><TranslatedText>Last/family name of respondent/contact</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="first_name" Name="first_name" DataType="text" Length="999" redcap:Variable="first_name" redcap:FieldType="text">
+		<Question><TranslatedText>First name of respondent/contact</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="resp_public" Name="resp_public" DataType="text" Length="1" redcap:Variable="resp_public" redcap:FieldType="radio" redcap:RequiredField="y" redcap:FieldAnnotation="@DEFAULT = &#039;1&#039;">
+		<Question><TranslatedText>Do you wish the results of the survey for your country/territory to be openly published by WHO?</TranslatedText></Question>
+		<CodeListRef CodeListOID="resp_public.choices"/>
+	</ItemDef>
+	<ItemDef OID="note_1" Name="note_1" DataType="text" Length="999" redcap:Variable="note_1" redcap:FieldType="descriptive" redcap:FieldNote="note" redcap:SectionHeader="1.1 National essential medicine lists">
+		<Question><TranslatedText>p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }Item&quot;We include medical oxygen in national essential medicine lists (or an equivalent e.g. pharmacopoeia).&quot;DetailsThe national level essential medicines list, or where this is not available, a national pharmacopoeia or formulary.Potential sources of evidence:		Relevant pharmacopeia (if national, preferably to be updated by provisions in the International Pharmacopeia).			Essential medicine lists, if available.			Priority list of medical devices includes those needed for oxygen therapy and respiratory support, if available.	</TranslatedText><redcap:FormattedTranslatedText>&lt;style type=&quot;text/css&quot;&gt;p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }&lt;/style&gt;&lt;h3&gt;Item&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&quot;We include medical oxygen in national essential medicine lists (or an equivalent e.g. pharmacopoeia).&quot;&lt;/strong&gt;&lt;/p&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal; color: black; display: inline-block;&quot;&gt;The national level essential medicines list, or where this is not available, a national pharmacopoeia or formulary.&lt;/p&gt;&lt;h3&gt;&lt;h3&gt;Potential sources of evidence:&lt;/h3&gt;&lt;ul&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Relevant pharmacopeia (if national, preferably to be updated by provisions in the International Pharmacopeia).&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Essential medicine lists, if available.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Priority list of medical devices includes those needed for oxygen therapy and respiratory support, if available.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;&lt;/ul&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos11_score" Name="atmos11_score" DataType="text" Length="1" redcap:Variable="atmos11_score" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Self-assessment of national essential medicine lists</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos11_score.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos11_docu" Name="atmos11_docu" DataType="text" Length="1" redcap:Variable="atmos11_docu" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Do you wish to document details about this question?</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos11_docu.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos11_str" Name="atmos11_str" DataType="text" Length="999" redcap:Variable="atmos11_str" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document strengths and accomplishments" redcap:BranchingLogic="[atmos11_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Current strengths and accomplishments</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos11_plan" Name="atmos11_plan" DataType="text" Length="999" redcap:Variable="atmos11_plan" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document challenges and plans to address them" redcap:BranchingLogic="[atmos11_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Challenges and plans to address them</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="note_2" Name="note_2" DataType="text" Length="999" redcap:Variable="note_2" redcap:FieldType="descriptive" redcap:SectionHeader="1.2 National strategic and operational health plans ">
+		<Question><TranslatedText>p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }Item&quot;We have included medical oxygen into national strategic and operational health plans (e.g. as a national oxygen strategy) which includes realistic costings and a financing plan.&quot;DetailsThis can include both incorporation into a broader strategic health planning document, or as a standalone oxygen roadmap/plan. If planning to develop a national plan, various tools are available to support. Realistic costing and financing should identify where funds are coming from, and be justified with data on oxygen need.Potential sources of evidence:		A national-level document or strategy that covers the production, distribution and financing of medical oxygen, which covers the current time period (e.g. oxygen roadmap, oxygen scale-up plan, strategic health plan).</TranslatedText><redcap:FormattedTranslatedText>&lt;style type=&quot;text/css&quot;&gt;p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }&lt;/style&gt;&lt;h3&gt;Item&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&quot;We have included medical oxygen into national strategic and operational health plans (e.g. as a national oxygen strategy) which includes realistic costings and a financing plan.&quot;&lt;/strong&gt;&lt;/p&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal; color: black; display: inline-block;&quot;&gt;This can include both incorporation into a broader strategic health planning document, or as a standalone oxygen roadmap/plan. If planning to develop a national plan, various tools are available to support. Realistic costing and financing should identify where funds are coming from, and be justified with data on oxygen need.&lt;/p&gt;&lt;h3&gt;Potential sources of evidence:&lt;/h3&gt;&lt;ul&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;A national-level document or strategy that covers the production, distribution and financing of medical oxygen, which covers the current time period (e.g. oxygen roadmap, oxygen scale-up plan, strategic health plan).&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos12_score" Name="atmos12_score" DataType="text" Length="1" redcap:Variable="atmos12_score" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Self-assessment for &quot;national strategic and operational health plans&quot;</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos12_score.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos12_docu" Name="atmos12_docu" DataType="text" Length="1" redcap:Variable="atmos12_docu" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Do you wish to document details about this question?</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos12_docu.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos12_str" Name="atmos12_str" DataType="text" Length="999" redcap:Variable="atmos12_str" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document strengths and accomplishments" redcap:BranchingLogic="[atmos12_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Current strengths and accomplishments</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos12_plan" Name="atmos12_plan" DataType="text" Length="999" redcap:Variable="atmos12_plan" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document challenges and plans to address them" redcap:BranchingLogic="[atmos12_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Challenges and plans to address them</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="note_3" Name="note_3" DataType="text" Length="999" redcap:Variable="note_3" redcap:FieldType="descriptive" redcap:SectionHeader="1.3 Emergency and disaster preparedness and response plans">
+		<Question><TranslatedText>p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }Item&quot;We include medical oxygen in our approved national emergency and disaster preparedness and response plans and drills.&quot;DetailsEmergency and disaster response, in particular pandemic preparedness plans and drills, should allow for a range of scenarios, including a respiratory pandemic (such as influenza). However, oxygen need and planned response should be considered beyond respiratory pandemic scenarios.Potential sources of evidence:		A pandemic preparedness plan which covers the current time period is in place and medical oxygen is included within this.</TranslatedText><redcap:FormattedTranslatedText>&lt;style type=&quot;text/css&quot;&gt;p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }&lt;/style&gt;&lt;h3&gt;Item&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&quot;&lt;span style=&quot;color:black&quot;&gt;We include medical oxygen in our approved national emergency and disaster preparedness and response plans and drills.&lt;/span&gt;&quot;&lt;/strong&gt;&lt;/p&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal; color: black; display: inline-block;&quot;&gt;Emergency and disaster response, in particular pandemic preparedness plans and drills, should allow for a range of scenarios, including a respiratory pandemic (such as influenza). However, oxygen need and planned response should be considered beyond respiratory pandemic scenarios.&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Potential sources of evidence:&lt;/h3&gt;&lt;ul&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;A pandemic preparedness plan which covers the current time period is in place and medical oxygen is included within this.&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos13_score" Name="atmos13_score" DataType="text" Length="1" redcap:Variable="atmos13_score" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Self-assessment of emergency and disaster preparedness and response plans</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos13_score.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos13_docu" Name="atmos13_docu" DataType="text" Length="1" redcap:Variable="atmos13_docu" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Do you wish to document details about this question?</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos13_docu.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos13_str" Name="atmos13_str" DataType="text" Length="999" redcap:Variable="atmos13_str" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document strengths and accomplishments" redcap:BranchingLogic="[atmos13_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Current strengths and accomplishments</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos13_plan" Name="atmos13_plan" DataType="text" Length="999" redcap:Variable="atmos13_plan" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document challenges and plans to address them" redcap:BranchingLogic="[atmos13_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Challenges and plans to address them</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="note_4" Name="note_4" DataType="text" Length="999" redcap:Variable="note_4" redcap:FieldType="descriptive" redcap:SectionHeader="1.4 Coordination mechanisms">
+		<Question><TranslatedText>p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }Item&quot;We have coordination mechanisms in place across state and non-state actors to support effective partnerships, evidence use, advocacy and leveraged capabilities to increase and sustain oxygen access.&quot;DetailsState actors should be considered more broadly than the Ministry of Health. Non-state actors can include nongovernmental organizations, multilateral and bilateral organizations, private and industry and charities, civil society organizations and academia. Consider systems for integrating donations into the national oxygen system. Qualitative score assignment.Potential sources of evidence:		Memoranda of understanding with partners.			Oxygen taskforce has been convened.			Guidance on managing medical donations; data sharing procedures.			Prioritization based on needs assessments and local research.	</TranslatedText><redcap:FormattedTranslatedText>&lt;style type=&quot;text/css&quot;&gt;p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }&lt;/style&gt;&lt;h3&gt;Item&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&quot;&lt;span style=&quot;color:black&quot;&gt;We have coordination mechanisms in place across state and non-state actors to support effective partnerships, evidence use, advocacy and leveraged capabilities to increase and sustain oxygen access.&lt;/span&gt;&quot;&lt;/strong&gt;&lt;/p&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal; color: black; display: inline-block;&quot;&gt;State actors should be considered more broadly than the Ministry of Health. Non-state actors can include nongovernmental organizations, multilateral and bilateral organizations, private and industry and charities, civil society organizations and academia. Consider systems for integrating donations into the national oxygen system. Qualitative score assignment.&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Potential sources of evidence:&lt;/h3&gt;&lt;ul&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Memoranda of understanding with partners.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Oxygen taskforce has been convened.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Guidance on managing medical donations; data sharing procedures.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Prioritization based on needs assessments and local research.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;&lt;/ul&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos14_score" Name="atmos14_score" DataType="text" Length="1" redcap:Variable="atmos14_score" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Self-assessment of coordination mechanisms</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos14_score.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos14_docu" Name="atmos14_docu" DataType="text" Length="1" redcap:Variable="atmos14_docu" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Do you wish to document details about this question?</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos14_docu.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos14_str" Name="atmos14_str" DataType="text" Length="999" redcap:Variable="atmos14_str" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document strengths and accomplishments" redcap:BranchingLogic="[atmos14_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Current strengths and accomplishments</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos14_plan" Name="atmos14_plan" DataType="text" Length="999" redcap:Variable="atmos14_plan" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document challenges and plans to address them" redcap:BranchingLogic="[atmos14_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Challenges and plans to address them</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="note_5" Name="note_5" DataType="text" Length="999" redcap:Variable="note_5" redcap:FieldType="descriptive" redcap:SectionHeader="1.5 National health care infrastructure policy and oxygen integration ">
+		<Question><TranslatedText>p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }Item&quot;We have a national policy or planning document that considers the stepwise integration of medical oxygen and other medical gas systems into the construction of health care infrastructure.&quot;DetailsHealth facility infrastructure should consider the inclusion of medical oxygen systems (and other gases) in planning and development. Coordination with a health infrastructure unit (or equivalent) and inclusion in their policy and planning documentation will support holistic systems with all requisite infrastructure and hardware.Potential sources of evidence:		National policy, regulations and standards for health care infrastructure.</TranslatedText><redcap:FormattedTranslatedText>&lt;style type=&quot;text/css&quot;&gt;p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }&lt;/style&gt;&lt;h3&gt;Item&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&quot;We have a national policy or planning document that considers the stepwise integration of medical oxygen and other medical gas systems into the construction of health care infrastructure.&quot;&lt;/strong&gt;&lt;/p&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal; color: black; display: inline-block;&quot;&gt;Health facility infrastructure should consider the inclusion of medical oxygen systems (and other gases) in planning and development. Coordination with a health infrastructure unit (or equivalent) and inclusion in their policy and planning documentation will support holistic systems with all requisite infrastructure and hardware.&lt;/p&gt;&lt;h3&gt;Potential sources of evidence:&lt;/h3&gt;&lt;ul&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;National policy, regulations and standards for health care infrastructure.&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos15_score" Name="atmos15_score" DataType="text" Length="1" redcap:Variable="atmos15_score" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Self-assessment of national policy and oxygen integration</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos15_score.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos15_docu" Name="atmos15_docu" DataType="text" Length="1" redcap:Variable="atmos15_docu" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Do you wish to document details about this question?</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos15_docu.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos15_str" Name="atmos15_str" DataType="text" Length="999" redcap:Variable="atmos15_str" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document strengths and accomplishments" redcap:BranchingLogic="[atmos15_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Current strengths and accomplishments</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos15_plan" Name="atmos15_plan" DataType="text" Length="999" redcap:Variable="atmos15_plan" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document challenges and plans to address them" redcap:BranchingLogic="[atmos15_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Challenges and plans to address them</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="note_6" Name="note_6" DataType="text" Length="999" redcap:Variable="note_6" redcap:FieldType="descriptive" redcap:SectionHeader="2.1 Sufficient capacity in routine conditions">
+		<Question><TranslatedText>p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }Item&quot;We can produce or acquire sufficient medical oxygen supply to meet need during routine conditions.&quot;DetailsSeasonal variation in oxygen need is included under &quot;routine conditions&quot;. Ideally, data should be available from a nationally representative situational analysis and resource mapping, which can demonstrate both production capacity, effective distribution and oxygen need in the prior calendar year. Where data on these indicators are not available, a score is qualitatively assigned, considering any subnational/ad hoc data, e.g. stock-outs, consumption, hospitalizations. Information should be based on oxygen meeting specifications for medical application only (e.g. liquid oxygen for non-medical use should not be counted).Potential sources of evidence:		Coverage and service readiness indicators available.</TranslatedText><redcap:FormattedTranslatedText>&lt;style type=&quot;text/css&quot;&gt;p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }&lt;/style&gt;&lt;h3&gt;Item&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&quot;&lt;span style=&quot;color:black&quot;&gt;We can produce or acquire sufficient medical oxygen supply to meet need during routine conditions.&lt;/span&gt;&quot;&lt;/strong&gt;&lt;/p&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal; color: black; display: inline-block;&quot;&gt;Seasonal variation in oxygen need is included under &quot;routine conditions&quot;. Ideally, data should be available from a nationally representative situational analysis and resource mapping, which can demonstrate both production capacity, effective distribution and oxygen need in the prior calendar year. Where data on these indicators are not available, a score is qualitatively assigned, considering any subnational/ad hoc data, e.g. stock-outs, consumption, hospitalizations. Information should be based on oxygen meeting specifications for medical application only (e.g. liquid oxygen for non-medical use should not be counted).&lt;/p&gt;&lt;h3&gt;Potential sources of evidence:&lt;/h3&gt;&lt;ul&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Coverage and service readiness indicators available.&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos21_score" Name="atmos21_score" DataType="text" Length="1" redcap:Variable="atmos21_score" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Self-assessment of coordination mechanisms</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos21_score.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos21_docu" Name="atmos21_docu" DataType="text" Length="1" redcap:Variable="atmos21_docu" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Do you wish to document details about this question?</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos21_docu.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos21_str" Name="atmos21_str" DataType="text" Length="999" redcap:Variable="atmos21_str" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document strengths and accomplishments" redcap:BranchingLogic="[atmos21_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Current strengths and accomplishments</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos21_plan" Name="atmos21_plan" DataType="text" Length="999" redcap:Variable="atmos21_plan" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document challenges and plans to address them" redcap:BranchingLogic="[atmos21_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Challenges and plans to address them</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="note_7" Name="note_7" DataType="text" Length="999" redcap:Variable="note_7" redcap:FieldType="descriptive" redcap:SectionHeader="2.2 Capacity for surge demand">
+		<Question><TranslatedText>p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }Item&quot;We can promptly increase medical oxygen supply to meet surges in demand in national- and subnational-level demands (e.g. outbreaks and disasters).&quot;DetailsMajor surges are context and temporally dependent and definitions vary by context and scenario. Example scenarios include multiple overlapping seasonal viruses exceeding routine forecasts; a respiratory pandemic; a major trauma incident with increased critical care/surgery; natural disaster with damaged infrastructure. Qualitative score assignment, supported by guidelines and policy documents. Potential sources of evidence:		Policies, plans and guidelines to consider include pandemic preparedness and response.			Disaster response planning.			Legal frameworks that allow for temporary conversion of industrial to medical oxygen.			Mechanisms for emergency release of government funds.	</TranslatedText><redcap:FormattedTranslatedText>&lt;style type=&quot;text/css&quot;&gt;p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }&lt;/style&gt;&lt;h3&gt;Item&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&quot;&lt;span style=&quot;color:black&quot;&gt;We can promptly increase medical oxygen supply to meet surges in demand in national- and subnational-level demands (e.g. outbreaks and disasters&lt;/span&gt;).&quot;&lt;/strong&gt;&lt;/p&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal; color: black; display: inline-block;&quot;&gt;Major surges are context and temporally dependent and definitions vary by context and scenario. Example scenarios include multiple overlapping seasonal viruses exceeding routine forecasts; a respiratory pandemic; a major trauma incident with increased critical care/surgery; natural disaster with damaged infrastructure. Qualitative score assignment, supported by guidelines and policy documents. &lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Potential sources of evidence:&lt;/h3&gt;&lt;ul&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Policies, plans and guidelines to consider include pandemic preparedness and response.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Disaster response planning.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Legal frameworks that allow for temporary conversion of industrial to medical oxygen.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Mechanisms for emergency release of government funds.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;&lt;/ul&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos22_score" Name="atmos22_score" DataType="text" Length="1" redcap:Variable="atmos22_score" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Self-assessment of capacity for surge demand</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos22_score.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos22_docu" Name="atmos22_docu" DataType="text" Length="1" redcap:Variable="atmos22_docu" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Do you wish to document details about this question?</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos22_docu.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos22_str" Name="atmos22_str" DataType="text" Length="999" redcap:Variable="atmos22_str" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document strengths and accomplishments" redcap:BranchingLogic="[atmos22_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Current strengths and accomplishments</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos22_plan" Name="atmos22_plan" DataType="text" Length="999" redcap:Variable="atmos22_plan" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document challenges and plans to address them" redcap:BranchingLogic="[atmos22_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Challenges and plans to address them</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="note_8" Name="note_8" DataType="text" Length="999" redcap:Variable="note_8" redcap:FieldType="descriptive" redcap:SectionHeader="2.3 Quantification of need">
+		<Question><TranslatedText>p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }Item&quot;We have an up-to-date quantification of national medical oxygen need and this is linked to production and procurement.&quot;DetailsThis currently focuses on a national-level approach to forecasting medical oxygen need, but subnational variation should be considered when building this capacity. A system for quantifying oxygen need, allowing for changes in production capacity and seasonal variation, should be available. The score is qualitatively assigned, considering performance of forecasting and subnational application.Potential sources of evidence:		When assessing the need-gap, it should be done holistically (i.e. consider all related medical devices required for medical oxygen therapy, including those for diagnosis and treatment of hypoxaemia and all medical oxygen system requirements for production, storage and distribution of medical oxygen). It should also consider the functional status of all equipment.			Coverage and service readiness indicators available.</TranslatedText><redcap:FormattedTranslatedText>&lt;style type=&quot;text/css&quot;&gt;p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }&lt;/style&gt;&lt;h3&gt;Item&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&quot;&lt;span style=&quot;color:black&quot;&gt;We have an up-to-date quantification of national medical oxygen need and this is linked to production and procurement.&lt;/span&gt;&quot;&lt;/strong&gt;&lt;/p&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal; color: black; display: inline-block;&quot;&gt;This currently focuses on a national-level approach to forecasting medical oxygen need, but subnational variation should be considered when building this capacity. A system for quantifying oxygen need, allowing for changes in production capacity and seasonal variation, should be available. The score is qualitatively assigned, considering performance of forecasting and subnational application.&lt;/p&gt;&lt;h3&gt;Potential sources of evidence:&lt;/h3&gt;&lt;ul&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;When assessing the need-gap, it should be done holistically (i.e. consider all related medical devices required for medical oxygen therapy, including those for diagnosis and treatment of hypoxaemia and all medical oxygen system requirements for production, storage and distribution of medical oxygen). It should also consider the functional status of all equipment.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Coverage and service readiness indicators available.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos23_score" Name="atmos23_score" DataType="text" Length="1" redcap:Variable="atmos23_score" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Self-assessment of quantification of need</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos23_score.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos23_docu" Name="atmos23_docu" DataType="text" Length="1" redcap:Variable="atmos23_docu" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Do you wish to document details about this question?</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos23_docu.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos23_str" Name="atmos23_str" DataType="text" Length="999" redcap:Variable="atmos23_str" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document strengths and accomplishments" redcap:BranchingLogic="[atmos23_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Current strengths and accomplishments</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos23_plan" Name="atmos23_plan" DataType="text" Length="999" redcap:Variable="atmos23_plan" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document challenges and plans to address them" redcap:BranchingLogic="[atmos23_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Challenges and plans to address them</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="note_9" Name="note_9" DataType="text" Length="999" redcap:Variable="note_9" redcap:FieldType="descriptive" redcap:SectionHeader="2.4 Guidance and contracts">
+		<Question><TranslatedText>p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }Item&quot;We have guidance documents and contracts to connect production (e.g. gas companies, distributors) and end-user organizations (e.g. hospitals, district health boards) at national and subnational levels.&quot;DetailsBeyond contracts there should also be legal mechanisms that ensure the obligations of contracts are met. Guidelines for negotiating contracts exist at the national level, and all levels of the health system are covered by this. Evidence of service-level agreements can be used where available, and should consider maintenance, training and distribution models.Potential sources of evidence:		Sustainable procurement guidelines.			Service-level agreements with inclusion of spare parts and continuous training.			Mechanisms for the beneficiary facilities to access the contracts, the legal support and the supplier&#039;s assistance when applicable.			Service readiness indicator available.			Availability of and access to local, regional or international specialized services for maintenance of existing medical oxygen systems.</TranslatedText><redcap:FormattedTranslatedText>&lt;style type=&quot;text/css&quot;&gt;p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }&lt;/style&gt;&lt;h3&gt;&lt;span style=&quot;font-family:Arial,Helvetica,sans-serif;&quot;&gt;Item&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;&lt;span style=&quot;font-family:Arial,Helvetica,sans-serif;&quot;&gt;&lt;strong&gt;&quot;&lt;span style=&quot;color:black&quot;&gt;We have guidance documents and contracts to connect production (e.g. gas companies, distributors) and end-user organizations (e.g. hospitals, district health boards) at national and subnational levels.&lt;/span&gt;&quot;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;&lt;span style=&quot;font-family:Arial,Helvetica,sans-serif;&quot;&gt;Details&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal; color: black; display: inline-block;&quot;&gt;Beyond contracts there should also be legal mechanisms that ensure the obligations of contracts are met. Guidelines for negotiating contracts exist at the national level, and all levels of the health system are covered by this. Evidence of service-level agreements can be used where available, and should consider maintenance, training and distribution models.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;&lt;span style=&quot;font-family:Arial,Helvetica,sans-serif;&quot;&gt;Potential sources of evidence:&lt;/h3&gt;&lt;ul&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Sustainable procurement guidelines.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Service-level agreements with inclusion of spare parts and continuous training.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Mechanisms for the beneficiary facilities to access the contracts, the legal support and the supplier&#039;s assistance when applicable.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Service readiness indicator available.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Availability of and access to local, regional or international specialized services for maintenance of existing medical oxygen systems.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos24_score" Name="atmos24_score" DataType="text" Length="1" redcap:Variable="atmos24_score" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Self-assessment of guidance and contracts</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos24_score.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos24_docu" Name="atmos24_docu" DataType="text" Length="1" redcap:Variable="atmos24_docu" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Do you wish to document details about this question?</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos24_docu.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos24_str" Name="atmos24_str" DataType="text" Length="999" redcap:Variable="atmos24_str" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document strengths and accomplishments" redcap:BranchingLogic="[atmos24_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Current strengths and accomplishments</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos24_plan" Name="atmos24_plan" DataType="text" Length="999" redcap:Variable="atmos24_plan" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document challenges and plans to address them" redcap:BranchingLogic="[atmos24_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Challenges and plans to address them</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="note_10" Name="note_10" DataType="text" Length="999" redcap:Variable="note_10" redcap:FieldType="descriptive" redcap:SectionHeader="2.5 Regulatory processes">
+		<Question><TranslatedText>p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }Item&quot;We have regulatory processes for ensuring medical oxygen, respiratory care medical devices and associated equipment meet quality and safety standards and accountability mechanisms for those responsible for supply.&quot;DetailsThis includes both commercial medical oxygen, industrial oxygen and donations of medical oxygen and of equipment. Regulatory instruments and standards can be demonstrated at relevant national agencies (e.g. drug and medical device authorities) in the first instance. Evidence that they are functional and being implemented in the next local level. Facility-level processes should also be considered when assigning the score qualitatively.Potential sources of evidence:		Established good manufacturing practices for medical oxygen.			National and local regulations, policies and technical specifications for medicines and medical devices manufacturing, distribution and use.			Mechanism for reporting adverse events or medical incidents (e.g. toxicity related to medical oxygen).			Service readiness indicator.</TranslatedText><redcap:FormattedTranslatedText>&lt;style type=&quot;text/css&quot;&gt;p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }&lt;/style&gt;&lt;h3&gt;&lt;span style=&quot;font-family:Arial,Helvetica,sans-serif;&quot;&gt;Item&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;&lt;span style=&quot;font-family:Arial,Helvetica,sans-serif;&quot;&gt;&lt;strong&gt;&quot;&lt;span style=&quot;color:black&quot;&gt;We have regulatory processes for ensuring medical oxygen, respiratory care medical devices and associated equipment meet quality and safety standards and accountability mechanisms for those responsible for supply.&lt;/span&gt;&quot;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;&lt;span style=&quot;font-family:Arial,Helvetica,sans-serif;&quot;&gt;Details&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal; color: black; display: inline-block;&quot;&gt;This includes both commercial medical oxygen, industrial oxygen and donations of medical oxygen and of equipment. Regulatory instruments and standards can be demonstrated at relevant national agencies (e.g. drug and medical device authorities) in the first instance. Evidence that they are functional and being implemented in the next local level. Facility-level processes should also be considered when assigning the score qualitatively.&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;&lt;span style=&quot;font-family:Arial,Helvetica,sans-serif;&quot;&gt;Potential sources of evidence:&lt;/h3&gt;&lt;ul&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Established good manufacturing practices for medical oxygen.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;National and local regulations, policies and technical specifications for medicines and medical devices manufacturing, distribution and use.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Mechanism for reporting adverse events or medical incidents (e.g. toxicity related to medical oxygen).&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Service readiness indicator.&lt;/em&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos25_score" Name="atmos25_score" DataType="text" Length="1" redcap:Variable="atmos25_score" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Self-assessment of regulatory processes</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos25_score.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos25_docu" Name="atmos25_docu" DataType="text" Length="1" redcap:Variable="atmos25_docu" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Do you wish to document details about this question?</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos25_docu.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos25_str" Name="atmos25_str" DataType="text" Length="999" redcap:Variable="atmos25_str" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document strengths and accomplishments" redcap:BranchingLogic="[atmos25_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Current strengths and accomplishments</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos25_plan" Name="atmos25_plan" DataType="text" Length="999" redcap:Variable="atmos25_plan" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document challenges and plans to address them" redcap:BranchingLogic="[atmos25_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Challenges and plans to address them</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="note_11" Name="note_11" DataType="text" Length="999" redcap:Variable="note_11" redcap:FieldType="descriptive" redcap:SectionHeader="2.6 Safe distribution">
+		<Question><TranslatedText>p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }Item&quot;We have mechanisms for safe distribution of medical oxygen that cover all facilities, to ensure minimal gaps in availability at the point of care for all patients in need of medical oxygen.&quot;DetailsThis includes plans for transport and storage at facilities and should include both logistics and safety considerations. When assessing distribution, it should include remote and less accessible geographical areas in all seasons of the year.Potential sources of evidence:		Established good distribution practices for medical oxygen.			Occupational and environmental health standards covering medical oxygen distribution.			Data from sources such as incidence reports and stock-outs of medical oxygen to healthcare facilities at all levels, including both rural and urban.			Service readiness indicator available.</TranslatedText><redcap:FormattedTranslatedText>&lt;style type=&quot;text/css&quot;&gt;p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }&lt;/style&gt;&lt;h3&gt;&lt;span style=&quot;font-family:Arial,Helvetica,sans-serif;&quot;&gt;Item&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;&lt;span style=&quot;font-family:Arial,Helvetica,sans-serif;&quot;&gt;&lt;strong&gt;&quot;&lt;span style=&quot;color:black&quot;&gt;We have mechanisms for safe distribution of medical oxygen that cover all facilities, to ensure minimal gaps in availability at the point of care for all patients in need of medical oxygen.&lt;/span&gt;&quot;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;&lt;span style=&quot;font-family:Arial,Helvetica,sans-serif;&quot;&gt;Details&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal; color: black; display: inline-block;&quot;&gt;This includes plans for transport and storage at facilities and should include both logistics and safety considerations. When assessing distribution, it should include remote and less accessible geographical areas in all seasons of the year.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;&lt;span style=&quot;font-family:Arial,Helvetica,sans-serif;&quot;&gt;Potential sources of evidence:&lt;/h3&gt;&lt;ul&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Established good distribution practices for medical oxygen.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Occupational and environmental health standards covering medical oxygen distribution.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Data from sources such as incidence reports and stock-outs of medical oxygen to healthcare facilities at all levels, including both rural and urban.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Service readiness indicator available.&lt;/em&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos26_score" Name="atmos26_score" DataType="text" Length="1" redcap:Variable="atmos26_score" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Self-assessment of safe distribution</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos26_score.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos26_docu" Name="atmos26_docu" DataType="text" Length="1" redcap:Variable="atmos26_docu" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Do you wish to document details about this question?</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos26_docu.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos26_str" Name="atmos26_str" DataType="text" Length="999" redcap:Variable="atmos26_str" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document strengths and accomplishments" redcap:BranchingLogic="[atmos26_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Current strengths and accomplishments</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos26_plan" Name="atmos26_plan" DataType="text" Length="999" redcap:Variable="atmos26_plan" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document challenges and plans to address them" redcap:BranchingLogic="[atmos26_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Challenges and plans to address them</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="note_12" Name="note_12" DataType="text" Length="999" redcap:Variable="note_12" redcap:FieldType="descriptive" redcap:SectionHeader="3.1 Budget allocations">
+		<Question><TranslatedText>p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }Item&quot;We have budget allocations for the key priorities within national medical oxygen plans and are able to access and release funds in a timely way.&quot;DetailsKey considerations are how different funding sources are being used, what areas are being prioritized, differentiating between capital and recurrent costs across production, distribution and delivery, and whether there are accountability mechanisms. National, subnational, district or facility budget documents (depending on the way oxygen is procured) should be the basis of the scoring, with both the amount allocated to oxygen systems and the amount spent in the last full budget year considered.Potential sources of evidence:		National health budget.</TranslatedText><redcap:FormattedTranslatedText>&lt;style type=&quot;text/css&quot;&gt;p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }&lt;/style&gt;&lt;h3&gt;Item&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&quot;&lt;span style=&quot;color:black&quot;&gt;We have budget allocations for the key priorities within national medical oxygen plans and are able to access and release funds in a timely way.&lt;/span&gt;&quot;&lt;/strong&gt;&lt;/p&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal; color: black; display: inline-block;&quot;&gt;Key considerations are how different funding sources are being used, what areas are being prioritized, differentiating between capital and recurrent costs across production, distribution and delivery, and whether there are accountability mechanisms. National, subnational, district or facility budget documents (depending on the way oxygen is procured) should be the basis of the scoring, with both the amount allocated to oxygen systems and the amount spent in the last full budget year considered.&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Potential sources of evidence:&lt;/h3&gt;&lt;ul&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;National health budget.&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos31_score" Name="atmos31_score" DataType="text" Length="1" redcap:Variable="atmos31_score" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Self-assessment of budget allocations</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos31_score.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos31_docu" Name="atmos31_docu" DataType="text" Length="1" redcap:Variable="atmos31_docu" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Do you wish to document details about this question?</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos31_docu.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos31_str" Name="atmos31_str" DataType="text" Length="999" redcap:Variable="atmos31_str" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document strengths and accomplishments" redcap:BranchingLogic="[atmos31_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Current strengths and accomplishments</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos31_plan" Name="atmos31_plan" DataType="text" Length="999" redcap:Variable="atmos31_plan" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document challenges and plans to address them" redcap:BranchingLogic="[atmos31_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Challenges and plans to address them</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="note_13" Name="note_13" DataType="text" Length="999" redcap:Variable="note_13" redcap:FieldType="descriptive" redcap:SectionHeader="3.2 Procurement and tendering processes">
+		<Question><TranslatedText>p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }Item&quot;Our procurement and tendering processes for medical oxygen supplies, services and devices are transparent and reflect a competitive market price.&quot;DetailsNational-level guidance on public tenders should be available. This should consider both the processes used for tendering oxygen services, and how they are applied to ensure a transparent and competitive market. Other evidence that should be qualitatively discussed are presence of freedom of information laws for government contracts; price transparency from medical oxygen companies; presence and application of laws that prevent monopolies.Potential sources of evidence:		Mechanisms to track suppliers&#039; quality performance and fulfilment of contracts.			Sustainable procurement policies.			Use of technical specifications which allow for transparent competition and local manufacturing.</TranslatedText><redcap:FormattedTranslatedText>&lt;style type=&quot;text/css&quot;&gt;p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }&lt;/style&gt;&lt;h3&gt;Item&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&quot;&lt;span style=&quot;color:black&quot;&gt;Our procurement and tendering processes for medical oxygen supplies, services and devices are transparent and reflect a competitive market price.&lt;/span&gt;&quot;&lt;/strong&gt;&lt;/p&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal; color: black; display: inline-block;&quot;&gt;National-level guidance on public tenders should be available. This should consider both the processes used for tendering oxygen services, and how they are applied to ensure a transparent and competitive market. Other evidence that should be qualitatively discussed are presence of freedom of information laws for government contracts; price transparency from medical oxygen companies; presence and application of laws that prevent monopolies.&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Potential sources of evidence:&lt;/h3&gt;&lt;ul&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Mechanisms to track suppliers&#039; quality performance and fulfilment of contracts.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Sustainable procurement policies.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Use of technical specifications which allow for transparent competition and local manufacturing.&lt;/span&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos32_score" Name="atmos32_score" DataType="text" Length="1" redcap:Variable="atmos32_score" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Self-assessment of procurement and tendering processes</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos32_score.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos32_docu" Name="atmos32_docu" DataType="text" Length="1" redcap:Variable="atmos32_docu" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Do you wish to document details about this question?</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos32_docu.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos32_str" Name="atmos32_str" DataType="text" Length="999" redcap:Variable="atmos32_str" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document strengths and accomplishments" redcap:BranchingLogic="[atmos32_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Current strengths and accomplishments</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos32_plan" Name="atmos32_plan" DataType="text" Length="999" redcap:Variable="atmos32_plan" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document challenges and plans to address them" redcap:BranchingLogic="[atmos32_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Challenges and plans to address them</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="note_14" Name="note_14" DataType="text" Length="999" redcap:Variable="note_14" redcap:FieldType="descriptive" redcap:SectionHeader="3.3 Affordability to providers">
+		<Question><TranslatedText>p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }Item&quot;We have mechanisms in place that ensure the provision of medical oxygen services at the point of care is affordable to providers and uses appropriate technologies (devices, spare parts, consumables, servicing).&quot;DetailsThis focuses on how affordable it is for healthcare providers to access an appropriate mix of oxygen technologies for patient care. Qualitative score assignment, considering the presence of a national formulary for medical devices and drugs, which has an appropriate equipment mix and variations in price points for different use cases. The use of health technology assessments is considered.Potential sources of evidence:		Medical devices that are affordable, appropriate, accessible, safe and effective as part of efforts to achieve universal health coverage.			Coverage and quality of care indicators available.</TranslatedText><redcap:FormattedTranslatedText>&lt;style type=&quot;text/css&quot;&gt;p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }&lt;/style&gt;&lt;h3&gt;Item&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&quot;We have mechanisms in place that ensure the provision of medical oxygen services at the point of care is affordable to providers and uses appropriate technologies (devices, spare parts, consumables, servicing).&quot;&lt;/strong&gt;&lt;/p&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal; color: black; display: inline-block;&quot;&gt;This focuses on how affordable it is for healthcare providers to access an appropriate mix of oxygen technologies for patient care. Qualitative score assignment, considering the presence of a national formulary for medical devices and drugs, which has an appropriate equipment mix and variations in price points for different use cases. The use of health technology assessments is considered.&lt;/p&gt;&lt;h3&gt;Potential sources of evidence:&lt;/h3&gt;&lt;ul&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Medical devices that are affordable, appropriate, accessible, safe and effective as part of efforts to achieve universal health coverage.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Coverage and quality of care indicators available.&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos33_score" Name="atmos33_score" DataType="text" Length="1" redcap:Variable="atmos33_score" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Self-assessment of affordability to providers</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos33_score.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos33_docu" Name="atmos33_docu" DataType="text" Length="1" redcap:Variable="atmos33_docu" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Do you wish to document details about this question?</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos33_docu.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos33_str" Name="atmos33_str" DataType="text" Length="999" redcap:Variable="atmos33_str" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document strengths and accomplishments" redcap:BranchingLogic="[atmos33_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Current strengths and accomplishments</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos33_plan" Name="atmos33_plan" DataType="text" Length="999" redcap:Variable="atmos33_plan" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document challenges and plans to address them" redcap:BranchingLogic="[atmos33_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Challenges and plans to address them</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="note_15" Name="note_15" DataType="text" Length="999" redcap:Variable="note_15" redcap:FieldType="descriptive" redcap:SectionHeader="3.4 Mechanisms for affordability">
+		<Question><TranslatedText>p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }Item&quot;We have mechanisms in place that ensure oxygen is affordable to all patients who need it (e.g. insurance, financial assistance, subsidies).&quot;DetailsThis is patient centred and should consider universal health coverage policies and financial protections. Evidence of policies that include universal health coverage and financial protections (including insurance) should be qualitatively discussed. Where available, data on out-of-pocket and catastrophic health expenditure should be considered. Affordability throughout the course of treatment, including for home oxygen therapy, should be considered when applicable.Potential sources of evidence:		Evidence of insurance, financial assistance or subsidy schemes.</TranslatedText><redcap:FormattedTranslatedText>&lt;style type=&quot;text/css&quot;&gt;p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }&lt;/style&gt;&lt;h3&gt;Item&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&quot;We have mechanisms in place that ensure oxygen is affordable to all patients who need it (e.g. insurance, financial assistance, subsidies).&quot;&lt;/strong&gt;&lt;/p&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal; color: black; display: inline-block;&quot;&gt;This is patient centred and should consider universal health coverage policies and financial protections. Evidence of policies that include universal health coverage and financial protections (including insurance) should be qualitatively discussed. Where available, data on out-of-pocket and catastrophic health expenditure should be considered. &lt;span style=&quot;line-height:107%&quot;&gt;&lt;span style=&quot;line-height:107%&quot;&gt;Affordability throughout the course of treatment, including for home oxygen therapy, should be considered when applicable.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Potential sources of evidence:&lt;/h3&gt;&lt;ul&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Evidence of insurance, financial assistance or subsidy schemes.&lt;/em&gt;&lt;/p&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos34_score" Name="atmos34_score" DataType="text" Length="1" redcap:Variable="atmos34_score" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Self-assessment of mechanisms for affordability</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos34_score.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos34_docu" Name="atmos34_docu" DataType="text" Length="1" redcap:Variable="atmos34_docu" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Do you wish to document details about this question?</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos34_docu.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos34_str" Name="atmos34_str" DataType="text" Length="999" redcap:Variable="atmos34_str" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document strengths and accomplishments" redcap:BranchingLogic="[atmos34_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Current strengths and accomplishments</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos34_plan" Name="atmos34_plan" DataType="text" Length="999" redcap:Variable="atmos34_plan" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document challenges and plans to address them" redcap:BranchingLogic="[atmos34_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Challenges and plans to address them</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="note_16" Name="note_16" DataType="text" Length="999" redcap:Variable="note_16" redcap:FieldType="descriptive" redcap:SectionHeader="4.1 Trained healthcare workers">
+		<Question><TranslatedText>p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }Item&quot;We have sufficient trained and equipped healthcare workers to provide medical oxygen services safely and effectively to patients.&quot;DetailsSufficient refers to the existing WHO standard for health workforce of five health care workers per 1000 population (which is a general standard not specific to oxygen), and should further consider how these health workers are distributed in the health system to ensure oxygen access. While this focuses on a national level, addressing subnational variation needs to be considered.Potential sources of evidence:		Evidence of the number of currently working healthcare workers at a national level.			Oxygen and pulse oximetry is included as a core competency in the curriculum for organizations which confer clinical degrees and qualifications.			Coverage, quality-of-care and service readiness indicators available.</TranslatedText><redcap:FormattedTranslatedText>&lt;style type=&quot;text/css&quot;&gt;p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }&lt;/style&gt;&lt;h3&gt;Item&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&quot;&lt;span style=&quot;color:black&quot;&gt;We have sufficient trained and equipped healthcare workers to provide medical oxygen services safely and effectively to patients.&lt;/span&gt;&quot;&lt;/strong&gt;&lt;/p&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal; color: black; display: inline-block;&quot;&gt;Sufficient refers to the existing WHO standard for health workforce of five health care workers per 1000 population (which is a general standard not specific to oxygen), and should further consider how these health workers are distributed in the health system to ensure oxygen access. While this focuses on a national level, addressing subnational variation needs to be considered.&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Potential sources of evidence:&lt;/h3&gt;&lt;ul&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Evidence of the number of currently working healthcare workers at a national level.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Oxygen and pulse oximetry is included as a core competency in the curriculum for organizations which confer clinical degrees and qualifications.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Coverage, quality-of-care and service readiness indicators available.&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos41_score" Name="atmos41_score" DataType="text" Length="1" redcap:Variable="atmos41_score" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Self-assessment of training of healthcare workers</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos41_score.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos41_docu" Name="atmos41_docu" DataType="text" Length="1" redcap:Variable="atmos41_docu" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Do you wish to document details about this question?</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos41_docu.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos41_str" Name="atmos41_str" DataType="text" Length="999" redcap:Variable="atmos41_str" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document strengths and accomplishments" redcap:BranchingLogic="[atmos41_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Current strengths and accomplishments</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos41_plan" Name="atmos41_plan" DataType="text" Length="999" redcap:Variable="atmos41_plan" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document challenges and plans to address them" redcap:BranchingLogic="[atmos41_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Challenges and plans to address them</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="note_17" Name="note_17" DataType="text" Length="999" redcap:Variable="note_17" redcap:FieldType="descriptive" redcap:SectionHeader="4.2 Trained engineers and technicians">
+		<Question><TranslatedText>p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }Item&quot;We have sufficient competent biomedical engineers/technicians, with access to appropriate equipment and supplies, to manage medical oxygen technology safely and effectively.&quot;DetailsSufficient biomedical engineers does not currently have a WHO standard; national-level requirements, addressing subnational variation, need to be considered, as well as systems for different levels of the health system and oxygen technology types. The presence of a capacity-building strategy should also be considered.Potential sources of evidence:		Evidence on the number of trained and currently working biomedical engineers and technicians at a national level.			Facility-level coverage can also be used to evidence sufficient coverage.</TranslatedText><redcap:FormattedTranslatedText>&lt;style type=&quot;text/css&quot;&gt;p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }&lt;/style&gt;&lt;h3&gt;Item&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&quot;&lt;span style=&quot;color:black&quot;&gt;We have sufficient competent biomedical engineers/technicians, with access to appropriate equipment and supplies, to manage medical oxygen technology safely and effectively.&lt;/span&gt;&quot;&lt;/strong&gt;&lt;/p&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal; color: black; display: inline-block;&quot;&gt;Sufficient biomedical engineers does not currently have a WHO standard; national-level requirements, addressing subnational variation, need to be considered, as well as systems for different levels of the health system and oxygen technology types. The presence of a capacity-building strategy should also be considered.&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Potential sources of evidence:&lt;/h3&gt;&lt;ul&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Evidence on the number of trained and currently working biomedical engineers and technicians at a national level.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Facility-level coverage can also be used to evidence sufficient coverage.&lt;/span&gt;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos42_score" Name="atmos42_score" DataType="text" Length="1" redcap:Variable="atmos42_score" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Self-assessment of competent engineers and technicians</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos42_score.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos42_docu" Name="atmos42_docu" DataType="text" Length="1" redcap:Variable="atmos42_docu" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Do you wish to document details about this question?</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos42_docu.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos42_str" Name="atmos42_str" DataType="text" Length="999" redcap:Variable="atmos42_str" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document strengths and accomplishments" redcap:BranchingLogic="[atmos42_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Current strengths and accomplishments</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos42_plan" Name="atmos42_plan" DataType="text" Length="999" redcap:Variable="atmos42_plan" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document challenges and plans to address them" redcap:BranchingLogic="[atmos42_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Challenges and plans to address them</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="note_18" Name="note_18" DataType="text" Length="999" redcap:Variable="note_18" redcap:FieldType="descriptive" redcap:SectionHeader="4.3 Monitoring and evaluation">
+		<Question><TranslatedText>p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }Item&quot;We have indicators for monitoring and evaluating medical oxygen systems, including financing, supply, need, patient access and quality of care (safety and appropriateness) at national, subnational and health facility levels.&quot;DetailsThis item considers both the systems for monitoring oxygen systems, but also the evaluation of oxygen systems based on monitoring data. Evidence of a monitoring and evaluation framework, which includes all dimensions of medical oxygen systems and covers the current time period, should be available. The quality of data, extent to which data have been adopted (e.g. indicators included within health management information systems) and application of this for evaluation (e.g. annual reports) should be qualitatively discussed.Potential sources of evidence:		Monitoring and evaluation framework.			Quality management systems applied along the supply chain of medical oxygen.</TranslatedText><redcap:FormattedTranslatedText>&lt;style type=&quot;text/css&quot;&gt;p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }&lt;/style&gt;&lt;h3&gt;Item&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&quot;We have indicators for monitoring and evaluating medical oxygen systems, including financing, supply, need, patient access and quality of care (safety and appropriateness) at national, subnational and health facility levels.&quot;&lt;/strong&gt;&lt;/p&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal; color: black; display: inline-block;&quot;&gt;This item considers both the systems for monitoring oxygen systems, but also the evaluation of oxygen systems based on monitoring data. Evidence of a monitoring and evaluation framework, which includes all dimensions of medical oxygen systems and covers the current time period, should be available. The quality of data, extent to which data have been adopted (e.g. indicators included within health management information systems) and application of this for evaluation (e.g. annual reports) should be qualitatively discussed.&lt;/p&gt;&lt;h3&gt;Potential sources of evidence:&lt;/h3&gt;&lt;ul&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Monitoring and evaluation framework.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Quality management systems applied along the supply chain of medical oxygen.&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos43_score" Name="atmos43_score" DataType="text" Length="1" redcap:Variable="atmos43_score" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Self-assessment of monitoring and evaluation</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos43_score.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos43_docu" Name="atmos43_docu" DataType="text" Length="1" redcap:Variable="atmos43_docu" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Do you wish to document details about this question?</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos43_docu.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos43_str" Name="atmos43_str" DataType="text" Length="999" redcap:Variable="atmos43_str" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document strengths and accomplishments" redcap:BranchingLogic="[atmos43_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Current strengths and accomplishments</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos43_plan" Name="atmos43_plan" DataType="text" Length="999" redcap:Variable="atmos43_plan" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document challenges and plans to address them" redcap:BranchingLogic="[atmos43_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Challenges and plans to address them</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="note_19" Name="note_19" DataType="text" Length="999" redcap:Variable="note_19" redcap:FieldType="descriptive" redcap:SectionHeader="4.4 Public health information">
+		<Question><TranslatedText>p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }Item&quot;We have reliable public health information being communicated to the population about medical oxygen services available.&quot;DetailsThe types of materials and their purpose will be context dependent and should respond to local needs - it is important to consider what is relevant in your context. Examples could include information targeted at the general population to promote uptake of referrals for oxygen treatment; information for health care workers to support effective patient communication; tackling misinformation. Evidence of public health materials that have been checked/updated within the prior 12 months should be provided and scored through qualitative discussion considering their relevance to context and timeliness.Potential sources of evidence:		Web page with information.			Awareness campaigns.			Posters and materials for health care workers.</TranslatedText><redcap:FormattedTranslatedText>&lt;style type=&quot;text/css&quot;&gt;p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }&lt;/style&gt;&lt;h3&gt;Item&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&quot;We have reliable public health information being communicated to the population about medical oxygen services available.&quot;&lt;/strong&gt;&lt;/p&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal; color: black; display: inline-block;&quot;&gt;The types of materials and their purpose will be context dependent and should respond to local needs - it is important to consider what is relevant in your context. Examples could include information targeted at the general population to promote uptake of referrals for oxygen treatment; information for health care workers to support effective patient communication; tackling misinformation. Evidence of public health materials that have been checked/updated within the prior 12 months should be provided and scored through qualitative discussion considering their relevance to context and timeliness.&lt;/p&gt;&lt;h3&gt;Potential sources of evidence:&lt;/h3&gt;&lt;ul&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Web page with information.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Awareness campaigns.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Posters and materials for health care workers.&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos44_score" Name="atmos44_score" DataType="text" Length="1" redcap:Variable="atmos44_score" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Self-assessment of public health information</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos44_score.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos44_docu" Name="atmos44_docu" DataType="text" Length="1" redcap:Variable="atmos44_docu" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Do you wish to document details about this question?</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos44_docu.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos44_str" Name="atmos44_str" DataType="text" Length="999" redcap:Variable="atmos44_str" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document strengths and accomplishments" redcap:BranchingLogic="[atmos44_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Current strengths and accomplishments</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos44_plan" Name="atmos44_plan" DataType="text" Length="999" redcap:Variable="atmos44_plan" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document challenges and plans to address them" redcap:BranchingLogic="[atmos44_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Challenges and plans to address them</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="note_20" Name="note_20" DataType="text" Length="999" redcap:Variable="note_20" redcap:FieldType="descriptive" redcap:SectionHeader=" 4.5 Appropriate use">
+		<Question><TranslatedText>p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }Item&quot;We have systems in place to ensure appropriate use of oxygen among those who need it.&quot;DetailsSystems refer to guidelines that guide clinical care, and accountability mechanisms that ensure quality of care (including safe use of medical oxygen). Appropriate use of medical oxygen refers to both the safe delivery of medical oxygen to the patient, and the diagnosis and monitoring of patients using pulse oximetry. Where possible, the score should be data driven. Without data, evidence of systems should be used and discussed qualitatively.Potential sources of evidence:		National clinical guidelines for medical oxygen use (adapted to different cadres and health system levels).			Standard operating procedures for use and maintenance of medical equipment and other devices.			Facility audits for oxygen production and distribution equipment; up-to-date inventory of functional equipment.			Patient surveys.			Adverse event data for patients (e.g. neonatal retinopathy).			Adverse event data for systems or equipment.</TranslatedText><redcap:FormattedTranslatedText>&lt;style type=&quot;text/css&quot;&gt;p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }&lt;/style&gt;&lt;h3&gt;Item&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&quot;We have systems in place to ensure appropriate use of oxygen among those who need it.&quot;&lt;/strong&gt;&lt;/p&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal; color: black; display: inline-block;&quot;&gt;Systems refer to guidelines that guide clinical care, and accountability mechanisms that ensure quality of care (including safe use of medical oxygen). Appropriate use of medical oxygen refers to both the safe delivery of medical oxygen to the patient, and the diagnosis and monitoring of patients using pulse oximetry. Where possible, the score should be data driven. Without data, evidence of systems should be used and discussed qualitatively.&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Potential sources of evidence:&lt;/h3&gt;&lt;ul&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;National clinical guidelines for medical oxygen use (adapted to different cadres and health system levels).&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Standard operating procedures for use and maintenance of medical equipment and other devices.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Facility audits for oxygen production and distribution equipment; up-to-date inventory of functional equipment.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Patient surveys.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Adverse event data for patients (e.g. neonatal retinopathy).&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Adverse event data for systems or equipment.&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos45_score" Name="atmos45_score" DataType="text" Length="1" redcap:Variable="atmos45_score" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Self-assessment of appropriate use</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos45_score.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos45_docu" Name="atmos45_docu" DataType="text" Length="1" redcap:Variable="atmos45_docu" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Do you wish to document details about this question?</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos45_docu.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos45_str" Name="atmos45_str" DataType="text" Length="999" redcap:Variable="atmos45_str" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document strengths and accomplishments" redcap:BranchingLogic="[atmos45_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Current strengths and accomplishments</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos45_plan" Name="atmos45_plan" DataType="text" Length="999" redcap:Variable="atmos45_plan" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document challenges and plans to address them" redcap:BranchingLogic="[atmos45_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Challenges and plans to address them</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="note_21" Name="note_21" DataType="text" Length="999" redcap:Variable="note_21" redcap:FieldType="descriptive" redcap:SectionHeader="4.6 Research and innovation">
+		<Question><TranslatedText>p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }Item&quot;We promote research and innovation, including translational research, to improve access, quality and safety of affordable medical oxygen and related respiratory care devices and diagnostics.&quot;DetailsResearch forms the basis for evidence-informed policy and health care. Innovation provides new and improved solutions to deliver these policies and care. Both can be accelerated by national research agendas, active coordination and translational collaboration.Potential sources of evidence:		National research agenda.			Initiatives at local higher education institutes.	</TranslatedText><redcap:FormattedTranslatedText>&lt;style type=&quot;text/css&quot;&gt;p, li, span, h3 {    -webkit-hyphens: none !important;    -ms-hyphens: none !important;    hyphens: none !important;    word-break: normal !important;    overflow-wrap: normal !important;  }&lt;/style&gt;&lt;h3&gt;Item&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;&quot;We promote research and innovation, including translational research, to improve access, quality and safety of affordable medical oxygen and related respiratory care devices and diagnostics.&quot;&lt;/strong&gt;&lt;/p&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal; color: black; display: inline-block;&quot;&gt;Research forms the basis for evidence-informed policy and health care. Innovation provides new and improved solutions to deliver these policies and care. Both can be accelerated by national research agendas, active coordination and translational collaboration.&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Potential sources of evidence:&lt;/h3&gt;&lt;ul&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;National research agenda.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;	&lt;li style=&quot;margin-bottom: 8px;&quot;&gt;	&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: normal; color: black;&quot;&gt;Initiatives at local higher education institutes.&lt;/em&gt;&lt;/p&gt;	&lt;/li&gt;&lt;/ul&gt;</redcap:FormattedTranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos46_score" Name="atmos46_score" DataType="text" Length="1" redcap:Variable="atmos46_score" redcap:FieldType="select" redcap:RequiredField="y">
+		<Question><TranslatedText>Self-assessment of coordination mechanisms</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos46_score.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos46_docu" Name="atmos46_docu" DataType="text" Length="1" redcap:Variable="atmos46_docu" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Do you wish to document details about this question?</TranslatedText></Question>
+		<CodeListRef CodeListOID="atmos46_docu.choices"/>
+	</ItemDef>
+	<ItemDef OID="atmos46_str" Name="atmos46_str" DataType="text" Length="999" redcap:Variable="atmos46_str" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document strengths and accomplishments" redcap:BranchingLogic="[atmos46_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Current strengths and accomplishments</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos46_plan" Name="atmos46_plan" DataType="text" Length="999" redcap:Variable="atmos46_plan" redcap:FieldType="text" redcap:FieldNote="Write here if you wish to document challenges and plans to address them" redcap:BranchingLogic="[atmos46_docu] = &quot;1&quot;">
+		<Question><TranslatedText>Challenges and plans to address them</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="atmos_score" Name="atmos_score" DataType="float" Length="999" redcap:Variable="atmos_score" redcap:FieldType="calc" redcap:FieldNote="This score represents the sum of your responses to all self-assessment questions in this survey." redcap:SectionHeader="OVERALL SCORE" redcap:Calculation="[atmos11_score]+[atmos12_score]+[atmos13_score]+[atmos14_score]+[atmos15_score]+
+[atmos21_score]+[atmos22_score]+[atmos23_score]+[atmos24_score]+[atmos25_score]+[atmos26_score]+
+[atmos31_score]+[atmos32_score]+[atmos33_score]+[atmos34_score]+
+[atmos41_score]+[atmos42_score]+[atmos43_score]+[atmos44_score]+[atmos45_score]+[atmos46_score]">
+		<Question><TranslatedText>ATMOS overall score:</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="form_1_complete" Name="form_1_complete" DataType="text" Length="1" redcap:Variable="form_1_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="form_1_complete.choices"/>
+	</ItemDef>
+	<CodeList OID="resp_countries.choices" Name="resp_countries" DataType="text" redcap:Variable="resp_countries">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Afghanistan</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Albania</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Algeria</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Andorra</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>Angola</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>Anguilla</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="7"><Decode><TranslatedText>Antigua and Barbuda</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="8"><Decode><TranslatedText>Argentina</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="9"><Decode><TranslatedText>Armenia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="10"><Decode><TranslatedText>Australia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="11"><Decode><TranslatedText>Austria</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="12"><Decode><TranslatedText>Azerbaijan</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="13"><Decode><TranslatedText>Bahamas</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="14"><Decode><TranslatedText>Bahrain</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="15"><Decode><TranslatedText>Bangladesh</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="16"><Decode><TranslatedText>Barbados</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="17"><Decode><TranslatedText>Belarus</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="18"><Decode><TranslatedText>Belgium</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="19"><Decode><TranslatedText>Belize</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="20"><Decode><TranslatedText>Benin</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="21"><Decode><TranslatedText>Bhutan</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="22"><Decode><TranslatedText>Bolivia (Plurinational State of)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="23"><Decode><TranslatedText>Bosnia and Herzegovina</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="24"><Decode><TranslatedText>Botswana</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="25"><Decode><TranslatedText>Brazil</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="26"><Decode><TranslatedText>Brunei Darussalam</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="27"><Decode><TranslatedText>Bulgaria</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="28"><Decode><TranslatedText>Burkina Faso</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="29"><Decode><TranslatedText>Burundi</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="30"><Decode><TranslatedText>Cambodia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="31"><Decode><TranslatedText>Cameroon</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="32"><Decode><TranslatedText>Canada</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="33"><Decode><TranslatedText>Cape Verde</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="34"><Decode><TranslatedText>Central African Republic</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="35"><Decode><TranslatedText>Chad</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="36"><Decode><TranslatedText>Chile</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="37"><Decode><TranslatedText>China</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="38"><Decode><TranslatedText>Colombia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="39"><Decode><TranslatedText>Comoros</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="40"><Decode><TranslatedText>Cook Islands</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="41"><Decode><TranslatedText>Costa Rica</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="42"><Decode><TranslatedText>Croatia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="43"><Decode><TranslatedText>Cuba</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="44"><Decode><TranslatedText>Cyprus</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="45"><Decode><TranslatedText>Czechia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="46"><Decode><TranslatedText>Democratic People&#039;s Republic of Korea</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="47"><Decode><TranslatedText>Democratic Republic of the Congo</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="48"><Decode><TranslatedText>Denmark</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="49"><Decode><TranslatedText>Djibouti</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="50"><Decode><TranslatedText>Dominica</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="51"><Decode><TranslatedText>Dominican Republic</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="52"><Decode><TranslatedText>Ecuador</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="53"><Decode><TranslatedText>Egypt</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="54"><Decode><TranslatedText>El Salvador</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="55"><Decode><TranslatedText>Equatorial Guinea</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="56"><Decode><TranslatedText>Eritrea</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="57"><Decode><TranslatedText>Estonia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="58"><Decode><TranslatedText>Eswatini</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="59"><Decode><TranslatedText>Ethiopia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="60"><Decode><TranslatedText>Fiji</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="61"><Decode><TranslatedText>Finland</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="62"><Decode><TranslatedText>France</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="63"><Decode><TranslatedText>Gabon</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="64"><Decode><TranslatedText>Gambia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="65"><Decode><TranslatedText>Georgia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="66"><Decode><TranslatedText>Germany</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="67"><Decode><TranslatedText>Ghana</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="68"><Decode><TranslatedText>Greece</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="69"><Decode><TranslatedText>Grenada</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="70"><Decode><TranslatedText>Guatemala</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="71"><Decode><TranslatedText>Guinea</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="72"><Decode><TranslatedText>Guinea-Bissau</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="73"><Decode><TranslatedText>Guyana</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="74"><Decode><TranslatedText>Haiti</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="75"><Decode><TranslatedText>Honduras</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="76"><Decode><TranslatedText>Hungary</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="77"><Decode><TranslatedText>Iceland</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="78"><Decode><TranslatedText>India</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="79"><Decode><TranslatedText>Indonesia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="80"><Decode><TranslatedText>Iran (Islamic Republic of)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="81"><Decode><TranslatedText>Iraq</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="82"><Decode><TranslatedText>Ireland</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="83"><Decode><TranslatedText>Israel</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="84"><Decode><TranslatedText>Italy</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="85"><Decode><TranslatedText>Ivory Coast</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="86"><Decode><TranslatedText>Jamaica</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="87"><Decode><TranslatedText>Japan</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="88"><Decode><TranslatedText>Jordan</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="89"><Decode><TranslatedText>Kazakhstan</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="90"><Decode><TranslatedText>Kenya</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="91"><Decode><TranslatedText>Kiribati</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="92"><Decode><TranslatedText>Kuwait</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="93"><Decode><TranslatedText>Kyrgyzstan</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="94"><Decode><TranslatedText>Lao People&#039;s Democratic Republic</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="95"><Decode><TranslatedText>Latvia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="96"><Decode><TranslatedText>Lebanon</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="97"><Decode><TranslatedText>Lesotho</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="98"><Decode><TranslatedText>Liberia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="99"><Decode><TranslatedText>Libya</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="100"><Decode><TranslatedText>Lithuania</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="101"><Decode><TranslatedText>Luxembourg</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="102"><Decode><TranslatedText>Madagascar</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="103"><Decode><TranslatedText>Malawi</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="104"><Decode><TranslatedText>Malaysia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="105"><Decode><TranslatedText>Maldives</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="106"><Decode><TranslatedText>Mali</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="107"><Decode><TranslatedText>Malta</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="108"><Decode><TranslatedText>Marshall Islands</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="109"><Decode><TranslatedText>Mauritania</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="110"><Decode><TranslatedText>Mauritius</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="111"><Decode><TranslatedText>Mexico</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="112"><Decode><TranslatedText>Micronesia (Federated States of)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="113"><Decode><TranslatedText>Monaco</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="114"><Decode><TranslatedText>Mongolia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="115"><Decode><TranslatedText>Montenegro</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="116"><Decode><TranslatedText>Morocco</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="117"><Decode><TranslatedText>Mozambique</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="118"><Decode><TranslatedText>Myanmar</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="119"><Decode><TranslatedText>Namibia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="120"><Decode><TranslatedText>Nauru</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="121"><Decode><TranslatedText>Nepal</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="122"><Decode><TranslatedText>Netherlands</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="123"><Decode><TranslatedText>New Zealand</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="124"><Decode><TranslatedText>Nicaragua</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="125"><Decode><TranslatedText>Niger</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="126"><Decode><TranslatedText>Nigeria</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="127"><Decode><TranslatedText>Niue</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="128"><Decode><TranslatedText>North Macedonia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="129"><Decode><TranslatedText>Norway</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="130"><Decode><TranslatedText>occupied Palestinian Territory including east Jerusalem</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="131"><Decode><TranslatedText>Oman</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="132"><Decode><TranslatedText>Pakistan</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="133"><Decode><TranslatedText>Palau</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="134"><Decode><TranslatedText>Panama</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="135"><Decode><TranslatedText>Papua New Guinea</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="136"><Decode><TranslatedText>Paraguay</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="137"><Decode><TranslatedText>Peru</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="138"><Decode><TranslatedText>Philippines</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="139"><Decode><TranslatedText>Poland</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="140"><Decode><TranslatedText>Portugal</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="141"><Decode><TranslatedText>Qatar</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="142"><Decode><TranslatedText>Republic of Korea</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="143"><Decode><TranslatedText>Republic of Moldova</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="144"><Decode><TranslatedText>Republic of the Congo</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="145"><Decode><TranslatedText>Romania</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="146"><Decode><TranslatedText>Russian Federation</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="147"><Decode><TranslatedText>Rwanda</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="148"><Decode><TranslatedText>Saint Kitts and Nevis</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="149"><Decode><TranslatedText>Saint Lucia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="150"><Decode><TranslatedText>Saint Vincent and the Grenadines</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="151"><Decode><TranslatedText>Samoa</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="152"><Decode><TranslatedText>San Marino</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="153"><Decode><TranslatedText>Sao Tome and Principe</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="154"><Decode><TranslatedText>Saudi Arabia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="155"><Decode><TranslatedText>Senegal</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="156"><Decode><TranslatedText>Serbia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="157"><Decode><TranslatedText>Seychelles</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="158"><Decode><TranslatedText>Sierra Leone</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="159"><Decode><TranslatedText>Singapore</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="160"><Decode><TranslatedText>Slovakia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="161"><Decode><TranslatedText>Slovenia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="162"><Decode><TranslatedText>Solomon Islands</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="163"><Decode><TranslatedText>Somalia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="164"><Decode><TranslatedText>South Africa</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="165"><Decode><TranslatedText>South Sudan</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="166"><Decode><TranslatedText>Spain</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="167"><Decode><TranslatedText>Sri Lanka</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="168"><Decode><TranslatedText>Sudan</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="169"><Decode><TranslatedText>Sudan (former)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="170"><Decode><TranslatedText>Suriname</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="171"><Decode><TranslatedText>Sweden</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="172"><Decode><TranslatedText>Switzerland</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="173"><Decode><TranslatedText>Syrian Arab Republic</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="174"><Decode><TranslatedText>Tajikistan</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="175"><Decode><TranslatedText>Tanzania</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="176"><Decode><TranslatedText>Thailand</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="177"><Decode><TranslatedText>The former state union Serbia and Montenegro</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="178"><Decode><TranslatedText>Timor-Leste</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="179"><Decode><TranslatedText>Togo</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="180"><Decode><TranslatedText>Tonga</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="181"><Decode><TranslatedText>Trinidad and Tobago</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="182"><Decode><TranslatedText>Tunisia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="183"><Decode><TranslatedText>Turkey</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="184"><Decode><TranslatedText>Turkmenistan</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="185"><Decode><TranslatedText>Tuvalu</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="186"><Decode><TranslatedText>Uganda</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="187"><Decode><TranslatedText>Ukraine</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="188"><Decode><TranslatedText>United Arab Emirates</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="189"><Decode><TranslatedText>United Kingdom of Great Britain and Northern Ireland</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="190"><Decode><TranslatedText>United States of America</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="191"><Decode><TranslatedText>Uruguay</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="192"><Decode><TranslatedText>Uzbekistan</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="193"><Decode><TranslatedText>Vanuatu</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="194"><Decode><TranslatedText>Venezuela (Bolivarian Republic of)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="195"><Decode><TranslatedText>Viet Nam</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="196"><Decode><TranslatedText>Yemen</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="197"><Decode><TranslatedText>Zambia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="198"><Decode><TranslatedText>Zimbabwe</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="resp_public.choices" Name="resp_public" DataType="text" redcap:Variable="resp_public">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes, data may be included in report to the Executive Board.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No, data are not to be shared or published in any form.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos11_score.choices" Name="atmos11_score" DataType="text" redcap:Variable="atmos11_score">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1 = Medical oxygen is not included in any essential medicine list.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2 = Medical oxygen is included within an essential medicine list, but is not considered essential, or is not aligned with international standards.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3 = Medical oxygen is included within a national essential medicine list, or equivalent.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos11_docu.choices" Name="atmos11_docu" DataType="text" redcap:Variable="atmos11_docu">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos12_score.choices" Name="atmos12_score" DataType="text" redcap:Variable="atmos12_score">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1 = Medical oxygen is not currently covered by any national health strategy or plan.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2 = A strategy document exists, but it lacks core elements, such as costing or distribution planning.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3 = A fully costed national oxygen strategy for the current time period is available.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos12_docu.choices" Name="atmos12_docu" DataType="text" redcap:Variable="atmos12_docu">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos13_score.choices" Name="atmos13_score" DataType="text" redcap:Variable="atmos13_score">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1 = A pandemic preparedness plan is not in place, or if it is, medical oxygen is not included in the planning and response.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2 = A pandemic preparedness plan exists, but medical oxygen is insufficiently addressed (e.g. lack of surge planning).</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3 = A pandemic preparedness plan exists, and medical oxygen is adequately considered across multiple scenarios.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos13_docu.choices" Name="atmos13_docu" DataType="text" redcap:Variable="atmos13_docu">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos14_score.choices" Name="atmos14_score" DataType="text" redcap:Variable="atmos14_score">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1 = No clear mechanisms to support effective coordination of oxygen at a national level.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2 = Some coordination mechanisms in place, but their ability to impact oxygen access is limited (e.g. lack reach, partially active, lack leadership).</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3 = Several currently active mechanisms exist to support coordination, with a person(s)/agency responsible for national oxygen coordination.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos14_docu.choices" Name="atmos14_docu" DataType="text" redcap:Variable="atmos14_docu">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos15_score.choices" Name="atmos15_score" DataType="text" redcap:Variable="atmos15_score">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1 = Health infrastructure policy does not exist, or if it does, it makes no allowance for medical oxygen or other medical gas systems.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2 = Health infrastructure policy exists, but there are unaddressed issues of integration of medical oxygen and/or other medical gas systems.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3 = Comprehensive health infrastructure policy with integration of medical oxygen and other medical gas systems.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos15_docu.choices" Name="atmos15_docu" DataType="text" redcap:Variable="atmos15_docu">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos21_score.choices" Name="atmos21_score" DataType="text" redcap:Variable="atmos21_score">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1 = Lack of systems in place to determine if oxygen supply has been sufficient, or multiple instances of oxygen being unavailable to meet needs in the prior calendar year.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2 = Systems in place to track and report medical oxygen production, distribution and need, but supply has inconsistently met need over the prior calendar year.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3 = Systems are in place to track and report  medical oxygen production, distribution and need, and that supply has met need over the prior calendar year.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos21_docu.choices" Name="atmos21_docu" DataType="text" redcap:Variable="atmos21_docu">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos22_score.choices" Name="atmos22_score" DataType="text" redcap:Variable="atmos22_score">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1 = Guidelines and policies to support surge capacity are not available or multiple instances of oxygen being unavailable to meet needs in the prior calendar year.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2 = Medical oxygen is included in plans and guidelines, but for limited scenarios or with insufficient coverage for surge capacity, or supply has inconsistently met need over the prior calendar year.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3 = Medical oxygen is included in plans and guidelines for various different scenarios that would require surge capacity, and supply has met need over the prior calendar year.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos22_docu.choices" Name="atmos22_docu" DataType="text" redcap:Variable="atmos22_docu">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos23_score.choices" Name="atmos23_score" DataType="text" redcap:Variable="atmos23_score">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1 = Quantification of medical oxygen need is not conducted.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2 = Quantification of medical oxygen need is conducted, but is out of date or does not link to production and procurement capacity.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3 = Quantification of medical oxygen need is up to date, and includes subnational variation.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos23_docu.choices" Name="atmos23_docu" DataType="text" redcap:Variable="atmos23_docu">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos24_score.choices" Name="atmos24_score" DataType="text" redcap:Variable="atmos24_score">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1 = Guidelines for negotiating contracts do not exist at the national level.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2 = Guidelines for negotiating contracts exist, but they do not consider different health system level needs.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3 = Guidelines for negotiating contracts exist at the national level, and all levels of the health system are covered by this.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos24_docu.choices" Name="atmos24_docu" DataType="text" redcap:Variable="atmos24_docu">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos25_score.choices" Name="atmos25_score" DataType="text" redcap:Variable="atmos25_score">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1 = Regulatory standards for medical oxygen, respiratory care medical devices and associated equipment are not present.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2 = Regulatory instruments and standards for medical oxygen, respiratory care medical devices and associated equipment exist, but they are insufficient or lack oversight.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3 = Regulatory instruments and standards for medical oxygen, respiratory care medical devices and associated equipment exist and there is active oversight in the supply chain.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos25_docu.choices" Name="atmos25_docu" DataType="text" redcap:Variable="atmos25_docu">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos26_score.choices" Name="atmos26_score" DataType="text" redcap:Variable="atmos26_score">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1 = Medical oxygen distribution mechanisms are not established, or are not covered by environmental and occupational safety standards.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2 = Occupational and environmental health cover medical oxygen distribution, but there are gaps in distribution systems.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3 = Occupational and environmental health cover medical oxygen distribution and distribution systems cover all facilities.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos26_docu.choices" Name="atmos26_docu" DataType="text" redcap:Variable="atmos26_docu">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos31_score.choices" Name="atmos31_score" DataType="text" redcap:Variable="atmos31_score">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1 = Medical oxygen systems were not included in the annual health budget, or funds allocated for oxygen were not realized.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2 = Medical oxygen systems were only partially included in the annual health budget (i.e. key components of the oxygen plan were missing), and funds were not fully realized.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3 = Medical oxygen systems were fully covered in the annual health budget, and funds were largely realized.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos31_docu.choices" Name="atmos31_docu" DataType="text" redcap:Variable="atmos31_docu">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos32_score.choices" Name="atmos32_score" DataType="text" redcap:Variable="atmos32_score">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1 = National policies on public tenders do not exist or are inadequate.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2 = National policies on public tenders exist, but supportive mechanisms to ensure a competitive market are not available or functional.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3 = National policies on public tenders exist, and mechanisms to ensure they are applied in a transparent and competitive way are functional.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos32_docu.choices" Name="atmos32_docu" DataType="text" redcap:Variable="atmos32_docu">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos33_score.choices" Name="atmos33_score" DataType="text" redcap:Variable="atmos33_score">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1 = National formulary does not exist for either drugs or medical devices.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2 = National formulary exists for either drugs or medical devices, but not for both.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3 = National formulary exists for both drugs and medical devices.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos33_docu.choices" Name="atmos33_docu" DataType="text" redcap:Variable="atmos33_docu">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos34_score.choices" Name="atmos34_score" DataType="text" redcap:Variable="atmos34_score">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1 = Oxygen services are not covered by national insurance or financial protection policies, and can result in catastrophic health expenditure.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2 = Oxygen services can incur out-of-pocket costs to patients, which are only partially covered or only for parts of the population.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3 = National health system is free at the point of care, or comprehensive financial protections are in place and include oxygen services.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos34_docu.choices" Name="atmos34_docu" DataType="text" redcap:Variable="atmos34_docu">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos41_score.choices" Name="atmos41_score" DataType="text" redcap:Variable="atmos41_score">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1 = Below five health care workers per 1000 AND training in oxygen and oximetry are not routinely, or ever, conducted, or data on healthcare worker density are not available.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2 = Below five health care workers per 1000 population OR training in oxygen and oximetry are not routinely conducted.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3 = A minimum of five health care workers per 1000 population, and these are distributed effectively at subnational and health system levels, with training on oxygen and pulse oximetry.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos41_docu.choices" Name="atmos41_docu" DataType="text" redcap:Variable="atmos41_docu">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos42_score.choices" Name="atmos42_score" DataType="text" redcap:Variable="atmos42_score">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1 = Data on biomedical engineer density are not available AND there is considerable subnational variation and inadequate coverage in biomedical engineer workforce. No strategic plan for increasing workforce capacity.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2 = Data are available on biomedical engineers nationally but there remains considerable subnational variation and inadequate coverage in the biomedical engineer workforce. Presence of a strategic plan for increasing workforce capacity.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3 = Data are available on biomedical engineers nationally and subnationally, and these are distributed effectively at subnational and health system level. A strategic plan for increasing workforce capacity exists.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos42_docu.choices" Name="atmos42_docu" DataType="text" redcap:Variable="atmos42_docu">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos43_score.choices" Name="atmos43_score" DataType="text" redcap:Variable="atmos43_score">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1 = Medical oxygen systems are not currently included in a national health monitoring and evaluation framework.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2 = Monitoring and evaluation framework exists, but it does not cover all elements of the medical oxygen system, or has not been translated into implementation.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3 = Monitoring and evaluation framework exists which covers all aspects of the medical oxygen system, and which has been adopted into routine data systems and is used in annual evaluation reports.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos43_docu.choices" Name="atmos43_docu" DataType="text" redcap:Variable="atmos43_docu">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos44_score.choices" Name="atmos44_score" DataType="text" redcap:Variable="atmos44_score">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1 = Public health materials on medical oxygen are not available through the Ministry of Health or public health agency.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2 = Public health materials are available, but are out of date, not tailored to the specific needs of the country, or are inaccessible to part of the population.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3 = Up-to-date public health materials available (in multiple languages where appropriate) and tailored to the different needs of communities, patients and providers.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos44_docu.choices" Name="atmos44_docu" DataType="text" redcap:Variable="atmos44_docu">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos45_score.choices" Name="atmos45_score" DataType="text" redcap:Variable="atmos45_score">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1 = No formal systems or data available to demonstrate appropriate use of oxygen.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2 = Guidelines exist for the clinical use of medical oxygen, but systems/data for ensuring they are safely and effectively used are lacking.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3 = Guidelines exist for clinical use of medical oxygen, and systems for ensuring these are applied safely and effectively are in place.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos45_docu.choices" Name="atmos45_docu" DataType="text" redcap:Variable="atmos45_docu">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos46_score.choices" Name="atmos46_score" DataType="text" redcap:Variable="atmos46_score">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>1 = Minimal or no oxygen research is undertaken, and oxygen is not included in relevant research agendas.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>2 = Some oxygen research is undertaken, but there is limited engagement of researchers/innovators, or a lack of research prioritization.</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>3 = Oxygen is included in relevant research agendas, with active engagement of researchers/innovators.</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="atmos46_docu.choices" Name="atmos46_docu" DataType="text" redcap:Variable="atmos46_docu">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="form_1_complete.choices" Name="form_1_complete" DataType="text" redcap:Variable="form_1_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+</MetaDataVersion>
+</Study>
+</ODM>
