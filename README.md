@@ -46,8 +46,8 @@ To deploy your own copy from the dictionary:
 ### 3. REDCap
 
 1. In REDCap: **New Project → Upload a REDCap project XML file (CDISC ODM)**.
-2. Select `[ATMOS_DataDictionary_2026-08-19_REDCap.csv FOR DICTIONARY]`; REDCap builds the instruments and data dictionary.
-3. Use `[Access to medical oxygen scorecard (ATMOS) _ REDCap.pdf FOR CODEBOOK]` as the reference codebook.
+2. Select `ATMOS_DataDictionary_2026-08-19_REDCap.csv FOR DICTIONARY`; REDCap builds the instruments and data dictionary.
+3. Use `Access to medical oxygen scorecard (ATMOS) _ REDCap.pdf FOR CODEBOOK` as the reference codebook.
 4. Test with dummy data before moving the project to production.
 
 ## Get the repository
