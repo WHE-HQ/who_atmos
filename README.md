@@ -19,6 +19,7 @@ https://extranet.who.int/edcrc/surveys/?s=TML97PKNNTNN8A9Y
 
 - `ATMOS_DataDictionary_2026_ODK.xlsx` — XLSForm dictionary for ODK/Kobo.
 - `AccessToMedicalOxyge_2026-10-08_1427.REDCap.xml` — importable REDCap project (CDISC ODM).
+- `ATMOS_DataDictionary_2026-08-19_REDCap.csv` — REDCap dictionary.
 - `Access to medical oxygen scorecard (ATMOS) _ REDCap.pdf` — REDCap codebook (field-by-field reference).
 
 ## Three ways to collect data
@@ -38,15 +39,15 @@ https://extranet.who.int/edcrc/surveys/?s=TML97PKNNTNN8A9Y
 To deploy your own copy from the dictionary:
 
 1. Sign in to KoboToolbox (or your ODK Central server).
-2. **New → Upload an XLSForm** and select `[FILENAME]`.
+2. **New → Upload an XLSForm** and select `ATMOS_DataDictionary_2026_ODK.xlsx`.
 3. **Deploy** — Kobo generates the web (Enketo) and mobile (ODK Collect) versions.
 4. Validate against the live reference form linked above.
 
 ### 3. REDCap
 
 1. In REDCap: **New Project → Upload a REDCap project XML file (CDISC ODM)**.
-2. Select `[FILENAME FOR DICTIONARY]`; REDCap builds the instruments and data dictionary.
-3. Use `[FILENAME FOR CODEBOOK]` as the reference codebook.
+2. Select `[ATMOS_DataDictionary_2026-08-19_REDCap.csv FOR DICTIONARY]`; REDCap builds the instruments and data dictionary.
+3. Use `[Access to medical oxygen scorecard (ATMOS) _ REDCap.pdf FOR CODEBOOK]` as the reference codebook.
 4. Test with dummy data before moving the project to production.
 
 ## Get the repository
