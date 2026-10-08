@@ -34,8 +34,6 @@ https://extranet.who.int/edcrc/surveys/?s=TML97PKNNTNN8A9Y
 
 ### 2. ODK / KoboToolbox
 
-**Live reference form:** *** [LINK] ***
-
 To deploy your own copy from the dictionary:
 
 1. Sign in to KoboToolbox (or your ODK Central server).
@@ -69,7 +67,6 @@ These instruments are shared to support **medical oxygen ecosystem self-assessme
 
 ## References
 
-[LINK TO WHO PUBLICATION (DOI)]
 
 https://apps.who.int/gb/ebwha/pdf_files/WHA76/A76_R3-en.pdf
 
